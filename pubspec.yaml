@@ -1,7 +1,7 @@
 name: flutter_any_logo
 description: All logos are included in this package to provide the largest logo library in flutter. It covers, fashion. Sports, Entertainment, SocialMedia etc...
 version: 0.0.1
-homepage:
+homepage: https://github.com/JordyHers/flutter_any_logo
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
