@@ -16,25 +16,13 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Logos'),
-        ),
         body: Center(
           child: ListView(
             children: [
-              Image(
-                image: Nba.atlantaHawks,
-              ),
-              Image(
-                image: Nba.bostonCeltics,
-              ),
-              Image(
-                image: Tech.lenovo,
-              ),
-              Image(
-                image: Fashion.lVMH,
-              ),
+              ...Nba.images,
+              ...Media.images,
             ],
           ),
         ),

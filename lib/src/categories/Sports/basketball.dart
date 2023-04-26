@@ -1,94 +1,147 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/src/abstract/abstract.dart';
 
+/// Basketball abstract class
 abstract class BasketBall extends SportsInterface {}
 
+// If you plan to edit this file and create a pull request, please keep
+// the list in alphabetical order.
+// Also, if you add a new team to the list, make sure to update the abstract class
+// where this list is inherited from as well.
+///
+///
+
 class Nba extends BasketBall {
+  /// This class represents all the NBA teams.
+  static List<AssetImage> get values => [
+        Nba.atlantaHawks,
+        Nba.bostonCeltics,
+        Nba.brooklynNets,
+        Nba.charlotteHornets,
+        Nba.chicagoBulls,
+        Nba.clevelandCavaliers,
+        Nba.dallasMavericks,
+        Nba.denverNuggets,
+        Nba.detroitPistons,
+        Nba.goldenStateWarriors,
+        Nba.houstonRockets,
+        Nba.indianaPacers,
+        Nba.losAngelesClippers,
+        Nba.losAngelesLakers,
+        Nba.memphisGrizzlies,
+        Nba.miamiHeat,
+        Nba.milwaukeeBucks,
+        Nba.minnesotaTimberwolves,
+        Nba.newOrleansPelicans,
+        Nba.newYorkKnicks,
+        Nba.oklahomaCityThunder,
+        Nba.orlandoMagic,
+        Nba.philadelphia76ers,
+        Nba.phoenixSuns,
+        Nba.portlandTrailBlazers,
+        Nba.sacramentoKings,
+        Nba.sanAntonioSpurs,
+        Nba.torontoRaptors,
+        Nba.utahJazz,
+        Nba.washingtonWizards,
+      ];
+
+  static List<Widget> get images => values.map((index) {
+        return Image(
+          image: index,
+          height: 100,
+        );
+      }).toList();
+
   static AssetImage atlantaHawks =
       const AssetImage('${SportsInterface.basketballPath}atlanta.png');
 
   static AssetImage bostonCeltics =
       const AssetImage('${SportsInterface.basketballPath}bostonCeltics.png');
 
-  static String brooklynNets = ' ';
+  static AssetImage brooklynNets =
+      const AssetImage('${SportsInterface.basketballPath}brooklynNets.png');
 
-  static String charlotteHornets = ' ';
+  static AssetImage charlotteHornets =
+      const AssetImage('${SportsInterface.basketballPath}charlotteHornets.png');
 
-  static String chicagoBulls = ' ';
+  static AssetImage chicagoBulls =
+      const AssetImage('${SportsInterface.basketballPath}chicagoBulls.png');
 
-  static String clevelandCavaliers = ' ';
+  static AssetImage clevelandCavaliers = const AssetImage(
+      '${SportsInterface.basketballPath}clevelandCavaliers.png');
 
-  static String dallasMavericks = ' ';
+  static AssetImage dallasMavericks =
+      const AssetImage('${SportsInterface.basketballPath}dallasMavericks.png');
 
-  static String denverNuggets = ' ';
+  static AssetImage denverNuggets =
+      const AssetImage('${SportsInterface.basketballPath}denverNuggets.png');
 
-  static String detroitPistons = ' ';
+  static AssetImage detroitPistons =
+      const AssetImage('${SportsInterface.basketballPath}detroitPistons.png');
 
-  static String goldenStateWarriors = ' ';
+  static AssetImage goldenStateWarriors = const AssetImage(
+      '${SportsInterface.basketballPath}goldenstateWarriors.png');
 
-  static String houstonRockets = ' ';
+  static AssetImage houstonRockets =
+      const AssetImage('${SportsInterface.basketballPath}houstonRockets.png');
 
-  static String indianaPacers = ' ';
+  static AssetImage indianaPacers =
+      const AssetImage('${SportsInterface.basketballPath}indianaPacers.png');
 
-  static String losAngelesClippers = ' ';
+  static AssetImage losAngelesClippers = const AssetImage(
+      '${SportsInterface.basketballPath}losangelesClippers.png');
 
-  static String losAngelesLakers = ' ';
+  static AssetImage losAngelesLakers =
+      const AssetImage('${SportsInterface.basketballPath}losangelesLakers.png');
 
-  static String memphisGrizzlies = ' ';
+  static AssetImage memphisGrizzlies =
+      const AssetImage('${SportsInterface.basketballPath}memphisGrizzlies.png');
 
-  static String miamiHeat = ' ';
+  static AssetImage miamiHeat =
+      const AssetImage('${SportsInterface.basketballPath}miamiHeat.png');
 
-  static String milwaukeeBucks = ' ';
+  static AssetImage milwaukeeBucks =
+      const AssetImage('${SportsInterface.basketballPath}milwaukeeBucks.png');
 
-  static String minnesotaTimberwolves = ' ';
+  static AssetImage minnesotaTimberwolves = const AssetImage(
+      '${SportsInterface.basketballPath}minnesotaTimberwolves.png');
 
-  static String newOrleansPelicans = ' ';
+  static AssetImage newOrleansPelicans = const AssetImage(
+      '${SportsInterface.basketballPath}neworleansPelicans.png');
 
-  static String newYorkKnicks = ' ';
+  static AssetImage newYorkKnicks =
+      const AssetImage('${SportsInterface.basketballPath}newyorkKnicks.png');
 
-  static String oklahomaCityThunder = ' ';
+  static AssetImage oklahomaCityThunder = const AssetImage(
+      '${SportsInterface.basketballPath}oklahomacityThunder.png');
 
-  static String orlandoMagic = ' ';
+  static AssetImage orlandoMagic =
+      const AssetImage('${SportsInterface.basketballPath}orlandoMagic.png');
 
-  static String philadelphia76ers = ' ';
+  static AssetImage philadelphia76ers = const AssetImage(
+      '${SportsInterface.basketballPath}philadelphia76ers.png');
 
-  static String phoenixSuns = ' ';
+  static AssetImage phoenixSuns =
+      const AssetImage('${SportsInterface.basketballPath}phoenixSuns.png');
 
-  static String portlandTrailBlazers = ' ';
+  static AssetImage portlandTrailBlazers = const AssetImage(
+      '${SportsInterface.basketballPath}portlandtrailBlazers.png');
 
-  static String sacramentoKings = ' ';
+  static AssetImage sacramentoKings =
+      const AssetImage('${SportsInterface.basketballPath}sacramentoKings.png');
 
-  static String sanAntonioSpurs = ' ';
+  static AssetImage sanAntonioSpurs =
+      const AssetImage('${SportsInterface.basketballPath}sanantonioSpurs.png');
 
-  static String torontoRaptors = ' ';
+  static AssetImage torontoRaptors =
+      const AssetImage('${SportsInterface.basketballPath}torontoRaptors.png');
 
-  static String utahJazz = ' ';
+  static AssetImage utahJazz =
+      const AssetImage('${SportsInterface.basketballPath}utahJazz.png');
 
-  static String washingtonWizards = ' ';
+  static AssetImage washingtonWizards = const AssetImage(
+      '${SportsInterface.basketballPath}washingtonWizards.png');
 }
 
-class EuroLeague extends BasketBall {
-  static String atlantaHawks = ' ';
-
-  static String bostonCeltics = ' ';
-
-  static String brooklynNets = ' ';
-
-  static String charlotteHornets = ' ';
-
-  static String chicagoBulls = ' ';
-
-  static String clevelandCavaliers = ' ';
-
-  static String dallasMavericks = ' ';
-
-  static String denverNuggets = ' ';
-
-  static String detroitPistons = ' ';
-
-  static String goldenStateWarriors = ' ';
-
-  static String houstonRockets = ' ';
-
-  static String indianaPacers = ' ';
-}
+class EuroLeague extends BasketBall {}

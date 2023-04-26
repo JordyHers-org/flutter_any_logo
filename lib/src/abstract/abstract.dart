@@ -1,12 +1,13 @@
 abstract class SportsInterface {
-  static const String football = 'packages/flutter_any_logo/assets/football/';
+  static const String footballPath =
+      'packages/flutter_any_logo/assets/football/';
 
-  static const String cricket = 'packages/flutter_any_logo/assets/cricket/';
+  static const String cricketPath = 'packages/flutter_any_logo/assets/cricket/';
 
   static const String basketballPath =
       'packages/flutter_any_logo/assets/basketball/';
 
-  static const String volleyball =
+  static const String volleyballPath =
       'packages/flutter_any_logo/assets/volleyball/';
 }
 
@@ -28,9 +29,9 @@ abstract class TechInterface {
   // apple
   // samsung
   // Microsoft
-  // Meta
+  // Meta -IBM
   // Dell - Hp - Acer Intel -ARMD - NVIDIA - Tencent - Asus
-  // Lenovo
+  // Lenovo0 Paypal Revolut
 }
 
 abstract class FoodInterface {
@@ -40,6 +41,7 @@ abstract class FoodInterface {
   // McDonalds
   // KFC
   // Nestle
+  //Gorillas - Wolt - Lieferando
 }
 
 abstract class MediaInterface {
@@ -47,4 +49,12 @@ abstract class MediaInterface {
   // TikTok - Youtube - Instagram -
   // Netflix - PrimeVideo - Telegram
   // Signal - Whatsapp - Pinterest
+  // Twitch - WeChat -Sina Weibo
+  // QQ - snapchat - Kuaishou
+  // Reddit - Linkedin - Quora
+  // Slack - Discord - Tumblr
+  // Skype - Tinder - spotify
+  // Shazam - outlook - Microsoft Teams
+  // Google Meet - Dropbox - Meet up
+  // zoom - Facetime -Google Duo
 }
