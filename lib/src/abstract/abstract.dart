@@ -29,9 +29,9 @@ abstract class TechInterface {
   // apple
   // samsung
   // Microsoft
-  // Meta
+  // Meta -IBM
   // Dell - Hp - Acer Intel -ARMD - NVIDIA - Tencent - Asus
-  // Lenovo
+  // Lenovo0 Paypal Revolut
 }
 
 abstract class FoodInterface {
@@ -41,6 +41,7 @@ abstract class FoodInterface {
   // McDonalds
   // KFC
   // Nestle
+  //Gorillas - Wolt - Lieferando
 }
 
 abstract class MediaInterface {
@@ -48,4 +49,12 @@ abstract class MediaInterface {
   // TikTok - Youtube - Instagram -
   // Netflix - PrimeVideo - Telegram
   // Signal - Whatsapp - Pinterest
+  // Twitch - WeChat -Sina Weibo
+  // QQ - snapchat - Kuaishou
+  // Reddit - Linkedin - Quora
+  // Slack - Discord - Tumblr
+  // Skype - Tinder - spotify
+  // Shazam - outlook - Microsoft Teams
+  // Google Meet - Dropbox - Meet up
+  // zoom - Facetime -Google Duo
 }
