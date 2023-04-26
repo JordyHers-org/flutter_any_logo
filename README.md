@@ -7,7 +7,10 @@ projects, such as Quizz app, Catalogs, eCommerce App, Templates, Websites, and m
 
 ## Screenshots
 
-![flutter_any_logo example screenshot](screenshots/flutter_any_logo.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/49708438/234598133-8159f94e-63ac-4dfc-acd8-bb5c7901c0da.gif" alt="Demo"/>
+</p>
+
 
 ## Installation
 
