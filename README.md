@@ -1,5 +1,3 @@
-Sure, here's an example README file for the `flutter_any_logo` plugin:
-
 # flutter_any_logo
 
 `flutter_any_logo` is a Flutter plugin that provides logos of different categories, such as Social Media and Sports. The logos can be easily integrated into your Flutter app.
