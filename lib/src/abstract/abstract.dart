@@ -1,12 +1,13 @@
 abstract class SportsInterface {
-  static const String football = 'packages/flutter_any_logo/assets/football/';
+  static const String footballPath =
+      'packages/flutter_any_logo/assets/football/';
 
-  static const String cricket = 'packages/flutter_any_logo/assets/cricket/';
+  static const String cricketPath = 'packages/flutter_any_logo/assets/cricket/';
 
   static const String basketballPath =
       'packages/flutter_any_logo/assets/basketball/';
 
-  static const String volleyball =
+  static const String volleyballPath =
       'packages/flutter_any_logo/assets/volleyball/';
 }
 
