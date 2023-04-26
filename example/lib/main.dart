@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_any_logo/flutter_logo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,10 +18,25 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('Logos'),
         ),
-        body: const Center(
-          child: Text('Running on: \n'),
+        body: Center(
+          child: ListView(
+            children: [
+              Image(
+                image: Nba.atlantaHawks,
+              ),
+              Image(
+                image: Nba.bostonCeltics,
+              ),
+              Image(
+                image: Tech.lenovo,
+              ),
+              Image(
+                image: Fashion.lVMH,
+              ),
+            ],
+          ),
         ),
       ),
     );
