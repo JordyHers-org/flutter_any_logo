@@ -1,11 +1,14 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/src/abstract/abstract.dart';
 
-abstract class BasketBall extends Sports {}
+abstract class BasketBall extends SportsInterface {}
 
 class Nba extends BasketBall {
-  static String atlantaHawks = ' ';
+  static AssetImage atlantaHawks =
+      const AssetImage('${SportsInterface.basketballPath}atlanta.png');
 
-  static String bostonCeltics = ' ';
+  static AssetImage bostonCeltics =
+      const AssetImage('${SportsInterface.basketballPath}bostonCeltics.png');
 
   static String brooklynNets = ' ';
 

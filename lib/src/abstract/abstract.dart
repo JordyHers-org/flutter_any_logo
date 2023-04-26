@@ -1,28 +1,50 @@
-abstract class Sports {
-  static const String basketball = 'basketball';
-  static const String football = 'football';
-  static const String cricket = 'cricket';
-  static const String volleyball = 'volleyball';
+abstract class SportsInterface {
+  static const String football = 'packages/flutter_any_logo/assets/football/';
+
+  static const String cricket = 'packages/flutter_any_logo/assets/cricket/';
+
+  static const String basketballPath =
+      'packages/flutter_any_logo/assets/basketball/';
+
+  static const String volleyball =
+      'packages/flutter_any_logo/assets/volleyball/';
 }
 
-abstract class Fashion {
-  String get imageAsset;
+abstract class FashionInterface {
+  static const String fashionPath = 'packages/flutter_any_logo/assets/fashion/';
+  // Loreal,
+  // lVMH, JeanPaul Gauthier - Dior - Armani -
+  // Balenciaga,
+  // H&M,
+  // Zara,
+  // etc...
 }
 
-abstract class Tech {
-  String get imageAsset;
+abstract class TechInterface {
+  static const String techPath = 'packages/flutter_any_logo/assets/tech/';
+  // playstation
+  // xiaomi-oppo-vivo
+  // xbox
+  // apple
+  // samsung
+  // Microsoft
+  // Meta
+  // Dell - Hp - Acer Intel -ARMD - NVIDIA - Tencent - Asus
+  // Lenovo
 }
 
-abstract class Food {
-  String get imageAsset;
+abstract class FoodInterface {
+  static const String foodPath = 'packages/flutter_any_logo/assets/food/';
+  // nutella
+  // Cocacola
+  // McDonalds
+  // KFC
+  // Nestle
 }
 
-//Netflix.PrimeVideo
-abstract class Entertainment {
-  String get imageAsset;
-}
-
-//TikTok - Youtube
-abstract class SocialMedia {
-  String get imageAsset;
+abstract class MediaInterface {
+  static const String mediaPath = 'packages/flutter_any_logo/assets/media/';
+  // TikTok - Youtube - Instagram -
+  // Netflix - PrimeVideo - Telegram
+  // Signal - Whatsapp - Pinterest
 }
