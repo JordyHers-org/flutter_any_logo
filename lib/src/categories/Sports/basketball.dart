@@ -1,9 +1,58 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/src/abstract/abstract.dart';
 
+/// Basketball abstract class
 abstract class BasketBall extends SportsInterface {}
 
+// If you plan to edit this file and create a pull request, please keep
+// the list in alphabetical order.
+// Also, if you add a new team to the list, make sure to update the abstract class
+// where this list is inherited from as well.
+///
+///
+
 class Nba extends BasketBall {
+  /// This class represents all the NBA teams.
+  static List<AssetImage> get values => [
+        Nba.atlantaHawks,
+        Nba.bostonCeltics,
+        Nba.brooklynNets,
+        Nba.charlotteHornets,
+        Nba.chicagoBulls,
+        Nba.clevelandCavaliers,
+        Nba.dallasMavericks,
+        Nba.denverNuggets,
+        Nba.detroitPistons,
+        Nba.goldenStateWarriors,
+        Nba.houstonRockets,
+        Nba.indianaPacers,
+        Nba.losAngelesClippers,
+        Nba.losAngelesLakers,
+        Nba.memphisGrizzlies,
+        Nba.miamiHeat,
+        Nba.milwaukeeBucks,
+        Nba.minnesotaTimberwolves,
+        Nba.newOrleansPelicans,
+        Nba.newYorkKnicks,
+        Nba.oklahomaCityThunder,
+        Nba.orlandoMagic,
+        Nba.philadelphia76ers,
+        Nba.phoenixSuns,
+        Nba.portlandTrailBlazers,
+        Nba.sacramentoKings,
+        Nba.sanAntonioSpurs,
+        Nba.torontoRaptors,
+        Nba.utahJazz,
+        Nba.washingtonWizards,
+      ];
+
+  static List<Widget> get images => values.map((index) {
+        return Image(
+          image: index,
+          height: 100,
+        );
+      }).toList();
+
   static AssetImage atlantaHawks =
       const AssetImage('${SportsInterface.basketballPath}atlanta.png');
 
