@@ -121,6 +121,10 @@ Image(image: AssetImage(AnyLogo.nba.atlanta.path)),
 
 ```
 
+### Warning ⚠️
+> 😁 New Logos are constantly uploaded and we may have not uploaded a 
+logo you think should be part of the library. Feel free to open an Pull request to have your logo added.
+
 
 ## Test Strategy 
 
