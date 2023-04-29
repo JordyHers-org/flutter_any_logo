@@ -1,5 +1,7 @@
 # flutter_any_logo
 
+[![Deploy Dev](https://github.com/JordyHers/flutter_any_logo/actions/workflows/deploy_dev.yml/badge.svg?branch=main)](https://github.com/JordyHers/flutter_any_logo/actions/workflows/deploy_dev.yml)
+
 A Flutter plugin that provides asset images for popular industry categories.
 It includes 5 main classes, Sports, Fashion, Tech, Food, and Media, each extending their respective interface.
 This plugin can be useful for projects that require industry-related images. This plugin can be useful for various
@@ -42,21 +44,11 @@ class MyApp extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          Image(
-            image: Nba.atlantaHawks,
-          ),
-          Image(
-            image: Fashion.lvmh,
-          ),
-          Image(
-            image: Tech.lenovo,
-          ),
-          Image(
-            image: Food.nutella,
-          ),
-          Image(
-            image: Media.netflix,
-          ),
+          Image(image: Nba.atlantaHawks),
+          Image(image: Fashion.lvmh),
+          Image(image: Tech.lenovo),
+          Image(image: Food.nutella),
+          Image(image: Media.netflix),
         ],
       ),
     );
@@ -101,6 +93,56 @@ class MyApp extends StatelessWidget {
 - Louis Vuitton: `Fashion.lvmh`
 - Dior: `Fashion.dior`
 - Gucci: `Fashion.gucci`
+
+
+## Test Strategy 
+
+PNG File Upload Validation
+
+#### Objective:
+To ensure that only PNG files with a size of 400kb or less are uploaded to the application.
+
+#### Scope:
+This test strategy covers the validation of PNG file uploads in the application. Specifically, it covers the validation of PNG file types and size limits.
+
+#### Approach:
+The testing approach for this test strategy will involve a combination of manual and automated testing techniques. The automated testing will be implemented as part of the continuous integration (CI) pipeline using GitHub Actions. The manual testing will be performed by the testing team.
+
+#### Test Types:
+- Automated Testing:
+  - Static code analysis to enforce linting rules for file types and size limits
+- Manual Testing:
+  - Functional testing to verify that PNG files with a size of 400kb or less can be uploaded successfully
+  - Exploratory testing to identify any edge cases or potential issues related to PNG file uploads
+
+#### Test Environment:
+- Development environment: Flutter framework
+- Operating system: Windows, MacOS, Linux
+- Test environment: Local and staging servers
+
+#### Test Data:
+- PNG files with a size of 400kb or less
+- Non-PNG files
+
+#### Test Cases:
+1. Verify that only PNG files with a size of 400kb or less can be uploaded.
+2. Verify that an error message is displayed when attempting to upload a non-PNG file.
+3. Verify that a success message is displayed when a PNG file with a size of 400kb or less is uploaded successfully.
+4. Verify that the application is able to handle edge cases, such as large or corrupted PNG files.
+
+#### Test Schedule:
+- Automated testing will be performed as part of the CI pipeline for every code push or pull request.
+- Manual testing will be performed on an as-needed basis during the testing phase of the development cycle.
+
+#### Test Deliverables:
+- Test plan
+- Test cases
+- Test results and reports
+- Bug reports
+- Test sign-off
+
+
+This test strategy outlines the objectives, scope, approach, test types, test environment, test data, test cases, test schedule, and test deliverables for the validation of PNG file uploads in the application. It combines automated and manual testing techniques to ensure that only PNG files with a size of 400kb or less can be uploaded successfully.
 
 ## Contributing
 
