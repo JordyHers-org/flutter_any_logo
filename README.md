@@ -1,6 +1,6 @@
 # flutter_any_logo
 
-[![Deploy Dev](https://github.com/JordyHers/flutter_any_logo/actions/workflows/deploy_dev.yml/badge.svg?branch=main)](https://github.com/JordyHers/flutter_any_logo/actions/workflows/deploy_dev.yml)
+[![Deploy Dev](https://github.com/JordyHers/flutter_any_logo/actions/workflows/deploy_dev.yml/badge.svg?branch=dev)](https://github.com/JordyHers/flutter_any_logo/actions/workflows/deploy_dev.yml)
 
 A Flutter plugin that provides asset images for popular industry categories.
 It includes 5 main classes, Sports, Fashion, Tech, Food, and Media, each extending their respective interface.
