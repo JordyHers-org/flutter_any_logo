@@ -104,8 +104,6 @@ class MyApp extends StatelessWidget {
 - Dior: `Fashion.dior`
 - Gucci: `Fashion.gucci`
 
-Sure! Here's an example test strategy based on the requirements you provided:
-
 
 ## Test Strategy 
 
