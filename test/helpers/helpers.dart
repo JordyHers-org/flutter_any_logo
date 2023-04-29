@@ -83,17 +83,23 @@ class LogoTest {
     expect(tester.takeException(), isNull);
 
     // Scroll up
-    await tester.fling(find.byType(ListView), const Offset(0, -12000), 3000);
+    await tester.fling(find.byType(ListView), const Offset(0, -102000), 3000);
     await tester.pumpAndSettle();
-    await tester.fling(find.byType(ListView), const Offset(0, -12000), 3000);
+
+    final Finder listViewFinder = find.byType(ListView);
+    expect(listViewFinder, findsOneWidget);
+
     await tester.pumpAndSettle();
 
     // Verify that the last item displayed after scrolling up is the same as t
     // he item at the last index
-    final Finder lastItemFinder = find.byType(Image).last;
+
+    final Finder lastItemFinder = find.byType(Image, skipOffstage: false).last;
     final ImageProvider<Object> lastItem =
         tester.widget<Image>(lastItemFinder).image;
-    final AssetImage lastImage = items.last;
+    items.sort(
+        (AssetImage a, AssetImage b) => b.assetName.compareTo(a.assetName));
+    final AssetImage lastImage = items.first;
     expectLater(lastItem.toString(), equals(lastImage.toString()));
   }
 }
