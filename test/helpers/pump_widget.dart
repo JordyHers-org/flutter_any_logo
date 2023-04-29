@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/flutter_logo.dart';
-import 'package:flutter_any_logo/src/model/sports/football.dart';
 
 class PumpWidget {
   // Launch all logos in NBa folder
