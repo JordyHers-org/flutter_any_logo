@@ -42,7 +42,13 @@ Import the `flutter_any_logo` package in your Dart code:
 import 'package:flutter_any_logo/flutter_any_logo.dart';
 ```
 
-You can now use the provided `Logo` widgets to display the logos in your app. For example, to display the Instagram logo:
+You can now use the provided `AnyLogo` widget to display the logos in your app. For example, to display the Instagram logo:
+
+```dart
+AnyLogo.media.instagram
+```
+
+#### More examples
 
 ```dart
 import 'package:flutter_any_logo/flutter_any_logo.dart';
@@ -68,7 +74,7 @@ class MyApp extends StatelessWidget {
 
 `flutter_any_logo` currently supports the following categories and logos:
 
-### Usage
+### Variables
 if you want to have access to a type a static method is available
 
 ```dart
@@ -114,6 +120,10 @@ Image(image: AssetImage(AnyLogo.nba.atlanta.path)),
 
 
 ```
+
+### Warning ⚠️
+> 😁 New Logos are constantly uploaded and we may have not uploaded a 
+logo you think should be part of the library. Feel free to open an Pull request to have your logo added.
 
 
 ## Test Strategy 
