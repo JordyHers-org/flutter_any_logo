@@ -5,6 +5,7 @@
 
 ## Our aim is to implement 1000+ logos but keep the package as light as possible. 🪽
 
+![logos](https://user-images.githubusercontent.com/49708438/235303282-3d0c03b9-39bc-475e-be86-33ef99305889.jpeg)
 
 A Flutter plugin that provides asset images for popular industry categories.
 It includes 5 main classes, Sports, Fashion, Tech, Food, and Media, each extending their respective interface.
