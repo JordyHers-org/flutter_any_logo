@@ -29,7 +29,9 @@ flutter:
   assets:
     - assets/basketball/
     - assets/football/
+    - assets/euroleague/
     - assets/fashion/
+    - assets/food/
     - assets/media/
     - assets/tech/
 
@@ -46,8 +48,6 @@ flutter:
         pluginClass: FlutterAnyLogoPlugin
       windows:
         pluginClass: FlutterAnyLogoPluginCApi
-      web:
-        pluginClass: FlutterAnyLogoWeb
-        fileName: flutter_any_logo_web.dart
+
 
 
