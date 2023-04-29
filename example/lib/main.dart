@@ -19,11 +19,16 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: ListView(
-            children: [
-              ...Nba.images,
-              ...Media.images,
-            ],
+          child: SizedBox(
+            width: 200,
+            child: ListView(
+              children: [
+                ...Nba.images,
+                ...Media.images,
+                ...Tech.images,
+                ...UEFA.images,
+              ],
+            ),
           ),
         ),
       ),
