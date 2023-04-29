@@ -12,17 +12,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
-    - name: Check for PNG files
+    - name: Check Logos PNG files
       run: |
-          shopt -s nullglob
-          for file in $(find flutter_any_log/assets -type f -name "*.png"); do
-            echo "Found PNG file: $file"
-          done
-          for file in $(find path/to/folder -type f ! -name "*.png"); do
-            echo "ERROR: File '$file' is not a PNG file"
-          done
-
+        shopt -s nullglob
+        for file in $(find assets \( -path "assets/basketball/*" -o -path "assets/euroleague/*" -o -path "assets/fashion/*" -o -path "assets/food/*" -o -path "assets/football/*" -o -path "assets/media/*" -o -path "assets/tech/*" \) -type f ! -name "*.png"); do
+          echo "ERROR: File '$file' is not a PNG file"
+        done
     - name: Setup Flutter
       uses: subosito/flutter-action@v1
       with:
