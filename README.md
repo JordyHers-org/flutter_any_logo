@@ -44,21 +44,11 @@ class MyApp extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          Image(
-            image: Nba.atlantaHawks,
-          ),
-          Image(
-            image: Fashion.lvmh,
-          ),
-          Image(
-            image: Tech.lenovo,
-          ),
-          Image(
-            image: Food.nutella,
-          ),
-          Image(
-            image: Media.netflix,
-          ),
+          Image(image: Nba.atlantaHawks),
+          Image(image: Fashion.lvmh),
+          Image(image: Tech.lenovo),
+          Image(image: Food.nutella),
+          Image(image: Media.netflix),
         ],
       ),
     );
