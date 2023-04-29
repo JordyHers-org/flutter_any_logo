@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_any_logo/flutter_logo.dart';
+import 'package:flutter_any_logo/src/model/class.dart';
 
 class PumpWidget {
   // Launch all logos in NBa folder
   static Widget nba = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Nba.images.length,
+          itemCount: AnyLogo.nba.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Nba.images[index];
+            return AnyLogo.nba.values[index].image();
           }),
     ),
   );
@@ -17,9 +17,9 @@ class PumpWidget {
   static Widget football = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: UEFA.images.length,
+          itemCount: AnyLogo.uefa.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return UEFA.images[index];
+            return AnyLogo.uefa.values[index].image();
           }),
     ),
   );
@@ -28,9 +28,9 @@ class PumpWidget {
   static Widget media = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Media.images.length,
+          itemCount: AnyLogo.media.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Media.images[index];
+            return AnyLogo.media.values[index].image();
           }),
     ),
   );
@@ -39,9 +39,9 @@ class PumpWidget {
   static Widget tech = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Tech.images.length,
+          itemCount: AnyLogo.tech.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Tech.images[index];
+            return AnyLogo.tech.values[index].image();
           }),
     ),
   );
@@ -50,9 +50,9 @@ class PumpWidget {
   static Widget fashion = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Fashion.images.length,
+          itemCount: AnyLogo.fashion.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Fashion.images[index];
+            return AnyLogo.fashion.values[index].image();
           }),
     ),
   );

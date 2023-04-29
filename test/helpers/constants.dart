@@ -1,5 +1,5 @@
 class Const {
-  static const String basketball = './assets/basketball';
+  static const String nba = './assets/nba';
   static const String football = './assets/football';
   static const String euroleague = './assets/euroleague';
   static const String food = './assets/food';

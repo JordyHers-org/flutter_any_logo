@@ -12,7 +12,7 @@ import 'helpers/helpers.dart';
 void main() {
   test(' Basketball : Verify that all logos are PNG files', () {
     // Define the path to the local directory folder containing images
-    const String directoryPath = Const.basketball;
+    const String directoryPath = Const.nba;
     LogoTest.testType(directoryPath);
   });
 

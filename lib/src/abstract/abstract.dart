@@ -3,8 +3,7 @@ class AssetPath {
 
   static const String cricket = 'packages/flutter_any_logo/assets/cricket/';
 
-  static const String basketball =
-      'packages/flutter_any_logo/assets/basketball/';
+  static const String nba = 'packages/flutter_any_logo/assets/nba/';
 
   static const String fashion = 'packages/flutter_any_logo/assets/fashion/';
 
@@ -71,7 +70,9 @@ abstract class FoodInterface {
   // KFC
   // Nestle
   // StarBucks
-  //Gorillas - Wolt - Lieferando
+  // Gorillas
+  // Wolt
+  // Lieferando
 }
 
 abstract class MediaInterface {

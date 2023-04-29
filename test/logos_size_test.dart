@@ -16,7 +16,7 @@ import 'helpers/helpers.dart';
 void main() {
   test(' Basketball : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
-    const String directoryPath = Const.basketball;
+    const String directoryPath = Const.nba;
     LogoTest.testSize(directoryPath);
   });
 
