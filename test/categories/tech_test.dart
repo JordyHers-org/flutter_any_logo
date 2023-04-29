@@ -24,7 +24,7 @@ void main() {
         'Verify the last item displayed is the same as the last in the list',
         (WidgetTester tester) async {
       await tester.pumpWidget(PumpWidget.tech);
-      LogoTest.testDisplayedLogos(tester, Tech.values);
+      LogoTest.testDisplayedLogos(tester, Tech.$.values);
     });
   });
 }

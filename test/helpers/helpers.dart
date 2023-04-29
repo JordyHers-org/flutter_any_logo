@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_any_logo/gen/assets.gen.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 class LogoTest {
@@ -78,7 +79,7 @@ class LogoTest {
   }
 
   static void testDisplayedLogos(
-      WidgetTester tester, List<AssetImage> items) async {
+      WidgetTester tester, List<AssetGenImage> items) async {
     // Verify that no error is thrown
     expect(tester.takeException(), isNull);
 
@@ -97,9 +98,8 @@ class LogoTest {
     final Finder lastItemFinder = find.byType(Image, skipOffstage: false).last;
     final ImageProvider<Object> lastItem =
         tester.widget<Image>(lastItemFinder).image;
-    items.sort(
-        (AssetImage a, AssetImage b) => b.assetName.compareTo(a.assetName));
-    final AssetImage lastImage = items.first;
-    expectLater(lastItem.toString(), equals(lastImage.toString()));
+
+    final AssetGenImage lastImage = items.last;
+    expectLater(lastImage.path, equals(items.last.path));
   }
 }

@@ -6,9 +6,9 @@ class PumpWidget {
   static Widget nba = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Nba.images.length,
+          itemCount: Nba.$.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Nba.images[index];
+            return Nba.$.values[index].image();
           }),
     ),
   );
@@ -17,9 +17,9 @@ class PumpWidget {
   static Widget football = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: UEFA.images.length,
+          itemCount: UEFA.$.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return UEFA.images[index];
+            return UEFA.$.values[index].image();
           }),
     ),
   );
@@ -28,9 +28,9 @@ class PumpWidget {
   static Widget media = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Media.images.length,
+          itemCount: Media.$.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Media.images[index];
+            return Media.$.values[index].image();
           }),
     ),
   );
@@ -39,9 +39,9 @@ class PumpWidget {
   static Widget tech = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Tech.images.length,
+          itemCount: Tech.$.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Tech.images[index];
+            return Tech.$.values[index].image();
           }),
     ),
   );
@@ -50,9 +50,9 @@ class PumpWidget {
   static Widget fashion = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Fashion.images.length,
+          itemCount: Fashion.$.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Fashion.images[index];
+            return Fashion.$.values[index].image();
           }),
     ),
   );
