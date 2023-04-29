@@ -23,3 +23,6 @@ jobs:
 
     - name: Run tests
       run: flutter test
+      
+    - name: Analyze Linting
+      run: flutter analyze
