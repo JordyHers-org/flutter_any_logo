@@ -106,11 +106,13 @@ To ensure that only PNG files with a size of 400kb or less are uploaded to the a
 This test strategy covers the validation of PNG file uploads in the application. Specifically, it covers the validation of PNG file types and size limits.
 
 #### Approach:
-The testing approach for this test strategy will involve a combination of manual and automated testing techniques. The automated testing will be implemented as part of the continuous integration (CI) pipeline using GitHub Actions. The manual testing will be performed by the testing team.
+The testing approach for this test strategy will involve a combination of manual and automated testing techniques. The automated testing will be implemented as part of the continuous integration (CI) pipeline using GitHub Actions. The manual testing will be performed by the testing team. The Unit testing ensure the files are properly loaded
 
 #### Test Types:
 - Automated Testing:
   - Static code analysis to enforce linting rules for file types and size limits
+- Unit Testing:
+  - widget testing ensures the logos are properly loaded and rendered
 - Manual Testing:
   - Functional testing to verify that PNG files with a size of 400kb or less can be uploaded successfully
   - Exploratory testing to identify any edge cases or potential issues related to PNG file uploads
