@@ -12,7 +12,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.head_ref }}
-          github_token: ${{ secrets.DISABLE_REVIEW_TOKEn }}
+          github_token: ${{ secrets.DISABLE_REVIEW_TOKEN }}
           protect: true
           required_approving_review_count: 0
           dismiss_stale_reviews: true
