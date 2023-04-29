@@ -2,7 +2,7 @@
 # For more information on CODEOWNERS, see: https://docs.github.com/en/repositories/code-reviewing/about-code-reviewing
 
 # Assign ownership of the entire repository to jordyher
-*       @jordyhers
+* @jordyhers
 
 # Assign ownership of the assets folder and its subdirectories to jordyher
 /assets/**      @jordyhers
