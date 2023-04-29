@@ -1,4 +1,9 @@
 include: package:flutter_lints/flutter.yaml
 
-# Additional information about this file can be found at
-# https://dart.dev/guides/language/analysis-options
+linter:
+  rules:
+    - always_put_control_body_on_new_line
+    - always_specify_types
+    - prefer_single_quotes
+    - unnecessary_new
+    - lines_longer_than_80_chars
