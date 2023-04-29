@@ -93,6 +93,7 @@ class MyApp extends StatelessWidget {
 - Cocacola: `Food.cocaCola`
 - Nutella: `Food.nutella`
 - McDonalds: `Food.mcDonalds`
+- Starbucks: `Food.starBucks`
 
 
 ### Fashion
