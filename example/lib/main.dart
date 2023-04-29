@@ -23,10 +23,11 @@ class _MyAppState extends State<MyApp> {
             width: 200,
             child: ListView(
               children: [
-                ...Nba.images,
-                ...Media.images,
-                ...Tech.images,
-                ...UEFA.images,
+                ...Nba.$.values.map((e) => e.image()).toList(),
+                ...Media.$.values.map((e) => e.image()).toList(),
+                ...Fashion.$.values.map((e) => e.image()).toList(),
+                ...Tech.$.values.map((e) => e.image()).toList(),
+                ...Food.$.values.map((e) => e.image()).toList(),
               ],
             ),
           ),
