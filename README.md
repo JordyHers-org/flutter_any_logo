@@ -108,6 +108,10 @@ AnyLogo.nba.image()
 AnyLogo.nba.image(height: 30);
 
 
+//You can still pass just the asset image without calling [.image()]
+Image(image: AssetImage(AnyLogo.nba.atlanta.path)),
+
+
 
 ```
 
