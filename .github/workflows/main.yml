@@ -1,0 +1,24 @@
+name: Disable reviews for jordyhers
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  disable_reviews:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get branch protection rules
+        id: get_protection_rules
+        uses: peter-evans/get-branch-protection@v2
+        with:
+          token: ${{ secrets.DISABLE_REVIEW_TOKEN}}
+          branch: main
+
+      - name: Disable reviews for jordyhers
+        uses: peter-evans/disable-branch-protection-rule@v1
+        with:
+          token: ${{ secrets.DISABLE_REVIEW_TOKEN }}
+          branch: main
+          rule-id: pull_request_reviews
+          exception-actor: jordyhers
