@@ -1,18 +1,23 @@
-abstract class SportsInterface {
-  static const String footballPath =
-      'packages/flutter_any_logo/assets/football/';
+class AssetPath {
+  static const String football = 'packages/flutter_any_logo/assets/football/';
 
-  static const String cricketPath = 'packages/flutter_any_logo/assets/cricket/';
+  static const String cricket = 'packages/flutter_any_logo/assets/cricket/';
 
-  static const String basketballPath =
+  static const String basketball =
       'packages/flutter_any_logo/assets/basketball/';
 
-  static const String volleyballPath =
-      'packages/flutter_any_logo/assets/volleyball/';
+  static const String fashion = 'packages/flutter_any_logo/assets/fashion/';
+
+  static const String tech = 'packages/flutter_any_logo/assets/tech/';
+
+  static const String food = 'packages/flutter_any_logo/assets/food/';
+
+  static const String media = 'packages/flutter_any_logo/assets/media/';
 }
 
+abstract class SportsInterface {}
+
 abstract class FashionInterface {
-  static const String fashionPath = 'packages/flutter_any_logo/assets/fashion/';
   // Loreal,
   // lVMH, JeanPaul Gauthier - Dior - Armani -
   // Balenciaga,
@@ -22,7 +27,6 @@ abstract class FashionInterface {
 }
 
 abstract class TechInterface {
-  static const String techPath = 'packages/flutter_any_logo/assets/tech/';
   // playstation
   // xiaomi-oppo-vivo
   // xbox
@@ -35,17 +39,16 @@ abstract class TechInterface {
 }
 
 abstract class FoodInterface {
-  static const String foodPath = 'packages/flutter_any_logo/assets/food/';
   // nutella
   // Cocacola
   // McDonalds
   // KFC
   // Nestle
+  // StarBucks
   //Gorillas - Wolt - Lieferando
 }
 
 abstract class MediaInterface {
-  static const String mediaPath = 'packages/flutter_any_logo/assets/media/';
   // TikTok - Youtube - Instagram -
   // Netflix - PrimeVideo - Telegram
   // Signal - Whatsapp - Pinterest

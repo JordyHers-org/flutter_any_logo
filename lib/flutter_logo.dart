@@ -1,4 +1,5 @@
-export 'package:flutter_any_logo/src/categories/Fashion/fashion.dart';
-export 'package:flutter_any_logo/src/categories/Media/media.dart';
-export 'package:flutter_any_logo/src/categories/Sports/basketball.dart';
-export 'package:flutter_any_logo/src/categories/Tech/tech.dart';
+export 'package:flutter_any_logo/src/model/fashion/fashion.dart';
+export 'package:flutter_any_logo/src/model/media/media.dart';
+export 'package:flutter_any_logo/src/model/sports/basketball.dart';
+export 'package:flutter_any_logo/src/model/sports/football.dart';
+export 'package:flutter_any_logo/src/model/tech/tech.dart';
