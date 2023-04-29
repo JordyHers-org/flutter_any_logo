@@ -18,12 +18,38 @@ class AssetPath {
 abstract class SportsInterface {}
 
 abstract class FashionInterface {
-  // Loreal,
-  // lVMH, JeanPaul Gauthier - Dior - Armani -
-  // Balenciaga,
-  // H&M,
-  // Zara,
-  // etc...
+  // adidas,
+  // calvinKlein,
+  // diesel,
+  // dolceGabbana,
+  // emporioArmani,
+  // gap,
+  // giorgioArmani,
+  // givenchy,
+  // hm,
+  // jeanPaulGauthier,
+  // jordan,
+  // lacoste,
+  // levis,
+  // mango,
+  // michaelKors,
+  // nike,
+  // puma,
+  // timberland,
+  // tommyHilfiger,
+  // vans,
+  // balenciaga,
+  // chanel,
+  // dior,
+  // gucci,
+  // louisVuitton,
+  // prada,
+  // versace,
+  // esteeLauder,
+  // loreal,
+  // maybelline,
+  // mac,
+  // zara,
 }
 
 abstract class TechInterface {

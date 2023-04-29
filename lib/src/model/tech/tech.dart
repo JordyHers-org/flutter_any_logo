@@ -3,7 +3,6 @@ import 'package:flutter_any_logo/src/abstract/abstract.dart';
 
 class Tech extends TechInterface {
   static List<AssetImage> get values => <AssetImage>[
-        xiaomi,
         xbox,
         microsoft,
         meta,
@@ -16,7 +15,8 @@ class Tech extends TechInterface {
         apple,
         samsung,
         lenovo,
-        paypal
+        paypal,
+        xiaomi,
       ];
 
   static List<Widget> get images => values.map((AssetImage index) {

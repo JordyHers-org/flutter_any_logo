@@ -59,11 +59,11 @@ class UEFA extends Football {
         marseille,
         rbLeipzig,
         toulouse,
-        watford,
         valencia,
         galatasaray,
         fenerbahce,
         shalke04,
+        watford,
       ];
 
   static List<Widget> get images => values.map((AssetImage index) {
