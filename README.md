@@ -1,11 +1,19 @@
-# flutter_any_logo
+# Flutter Any Logo 💯 
+
 
 [![Deploy Dev](https://github.com/JordyHers/flutter_any_logo/actions/workflows/deploy_dev.yml/badge.svg?branch=main)](https://github.com/JordyHers/flutter_any_logo/actions/workflows/deploy_dev.yml)
+
+## Our aim is to implement 1000+ logos but keep the package as light as possible. 🪽
+
 
 A Flutter plugin that provides asset images for popular industry categories.
 It includes 5 main classes, Sports, Fashion, Tech, Food, and Media, each extending their respective interface.
 This plugin can be useful for projects that require industry-related images. This plugin can be useful for various
-projects, such as Quizz app, Catalogs, eCommerce App, Templates, Websites, and more. It can be especially useful for projects that require industry-related images.
+projects, such as Quizz app, Catalogs, eCommerce App, Templates, Websites, and more. It can be especially usefu
+l for projects that require industry-related images.
+
+
+
 
 ## Screenshots
 
