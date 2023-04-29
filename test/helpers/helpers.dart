@@ -94,6 +94,6 @@ class LogoTest {
     final ImageProvider<Object> lastItem =
         tester.widget<Image>(lastItemFinder).image;
     final AssetImage lastImage = items.last;
-    expect(lastItem.toString(), equals(lastImage.toString()));
+    expectLater(lastItem.toString(), equals(lastImage.toString()));
   }
 }
