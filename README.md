@@ -2,7 +2,7 @@
 
 A Flutter plugin that provides asset images for popular industry categories.
 It includes 5 main classes, Sports, Fashion, Tech, Food, and Media, each extending their respective interface.
-This plugin can be useful for projects that require industry-related images. This plugin can be useful for various 
+This plugin can be useful for projects that require industry-related images. This plugin can be useful for various
 projects, such as Quizz app, Catalogs, eCommerce App, Templates, Websites, and more. It can be especially useful for projects that require industry-related images.
 
 ## Screenshots
@@ -43,20 +43,20 @@ class MyApp extends StatelessWidget {
       child: Column(
         children: [
           Image(
-                image: Nba.atlantaHawks,
-              ),
+            image: Nba.atlantaHawks,
+          ),
           Image(
-                image: Fashion.lvmh,
-              ),  
+            image: Fashion.lvmh,
+          ),
           Image(
-                image: Tech.lenovo,
-              ),
+            image: Tech.lenovo,
+          ),
           Image(
-                image: Food.nutella,
-              ),
+            image: Food.nutella,
+          ),
           Image(
-                image: Media.netflix,
-              ),
+            image: Media.netflix,
+          ),
         ],
       ),
     );
