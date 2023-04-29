@@ -11,20 +11,20 @@ void main() {
     testWidgets('Verify All Logos Should load', (WidgetTester tester) async {
       await tester.pumpWidget(PumpWidget.nba);
       // Verify that all logo launch
-      final int number = LogoTest.numberOfLogos(Const.nba);
+      final int number = AnyLogoTest.numberOfLogos(Const.nba);
       expect(find.byType(Image, skipOffstage: false), findsNWidgets(number));
     });
 
     testWidgets('Verify no exception is thrown', (WidgetTester tester) async {
       await tester.pumpWidget(PumpWidget.nba);
-      LogoTest.testException(tester);
+      AnyLogoTest.testException(tester);
     });
 
     testWidgets(
         'Verify the last item displayed is the same as the last in the list',
         (WidgetTester tester) async {
       await tester.pumpWidget(PumpWidget.nba);
-      LogoTest.testDisplayedLogos(tester, AnyLogo.nba.values);
+      AnyLogoTest.testDisplayedLogos(tester, AnyLogo.nba.values);
     });
   });
 }
