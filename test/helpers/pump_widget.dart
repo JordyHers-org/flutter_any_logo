@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_any_logo/flutter_logo.dart';
+import 'package:flutter_any_logo/src/model/class.dart';
 
 class PumpWidget {
   // Launch all logos in NBa folder
   static Widget nba = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Nba.$.values.length,
+          itemCount: AnyLogo.nba.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Nba.$.values[index].image();
+            return AnyLogo.nba.values[index].image();
           }),
     ),
   );
@@ -17,9 +17,9 @@ class PumpWidget {
   static Widget football = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: UEFA.$.values.length,
+          itemCount: AnyLogo.uefa.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return UEFA.$.values[index].image();
+            return AnyLogo.uefa.values[index].image();
           }),
     ),
   );
@@ -28,9 +28,9 @@ class PumpWidget {
   static Widget media = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Media.$.values.length,
+          itemCount: AnyLogo.media.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Media.$.values[index].image();
+            return AnyLogo.media.values[index].image();
           }),
     ),
   );
@@ -39,9 +39,9 @@ class PumpWidget {
   static Widget tech = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Tech.$.values.length,
+          itemCount: AnyLogo.tech.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Tech.$.values[index].image();
+            return AnyLogo.tech.values[index].image();
           }),
     ),
   );
@@ -50,9 +50,9 @@ class PumpWidget {
   static Widget fashion = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
-          itemCount: Fashion.$.values.length,
+          itemCount: AnyLogo.fashion.values.length,
           itemBuilder: (BuildContext context, int index) {
-            return Fashion.$.values[index].image();
+            return AnyLogo.fashion.values[index].image();
           }),
     ),
   );

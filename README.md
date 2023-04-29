@@ -53,11 +53,11 @@ class MyApp extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          Image(image: Nba.atlantaHawks),
-          Image(image: Fashion.lvmh),
-          Image(image: Tech.lenovo),
-          Image(image: Food.nutella),
-          Image(image: Media.netflix),
+          ...AnyLogo.nba.values.map((e) => e.image()).toList(),
+          ...AnyLogo.fashion.values.map((e) => e.image()).toList(),
+          ...AnyLogo.uefa.values.map((e) => e.image()).toList(),
+          ...AnyLogo.food.values.map((e) => e.image()).toList(),
+          ...AnyLogo.tech.values.map((e) => e.image()).toList(),
         ],
       ),
     );
@@ -68,40 +68,48 @@ class MyApp extends StatelessWidget {
 
 `flutter_any_logo` currently supports the following categories and logos:
 
-### Media
+### Usage
+if you want to have access to a type a static method is available
 
-- Instagram: `Media.instagram`
-- Facebook: `Media.facebook`
-- Twitter: `Media.twitter`
-- TikTok: `Media.tiktok`
+```dart
+// Single Assets Image NBA
+ AnyLogo.nba.atlantaHawks
 
-### Sports
+//Access all values in a type
+ AnyLogo.nba.values
 
-- NBA: `Nba.atlanta`
-- NFL: `Nfl.detroitLions`
-- Football: `UEFA.barcelona`
+//Access the image
+AnyLogo.nba.image()
+
+// Key? key,   
+// AssetBundle? bundle,  
+// Widget Function(BuildContext, Widget, int?, bool)? frameBuilder,
+// Widget Function(BuildContext, Object, StackTrace?)? errorBuilder, 
+// String? semanticLabel,  
+// bool excludeFromSemantics = false, 
+// double? scale,  
+// double? width, 
+// double? height, 
+// Color? color,   
+// Animation<double>? opacity,
+// BlendMode? colorBlendMode,  
+// BoxFit? fit, 
+// AlignmentGeometry alignment = Alignment.center, 
+// ImageRepeat repeat = ImageRepeat.noRepeat,  
+// Rect? centerSlice, 
+// bool matchTextDirection = false, 
+// bool gaplessPlayback = false,
+// bool isAntiAlias = false, 
+// String? package, 
+// FilterQuality filterQuality = FilterQuality.low, 
+// int? cacheWidth,  
+// int? cacheHeight,
+// All the variables are sill available
+AnyLogo.nba.image(height: 30);
 
 
-### Tech
 
-- Apple: `Tech.apple`
-- Tesla: `Tech.tesla`
-- Samsung: `Tech.samsung`
-- Lenovo: `Tech.lenovo`
-
-### Food
-
-- Cocacola: `Food.cocaCola`
-- Nutella: `Food.nutella`
-- McDonalds: `Food.mcDonalds`
-- Starbucks: `Food.starBucks`
-
-
-### Fashion
-
-- Louis Vuitton: `Fashion.lvmh`
-- Dior: `Fashion.dior`
-- Gucci: `Fashion.gucci`
+```
 
 
 ## Test Strategy 
