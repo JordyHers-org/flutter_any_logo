@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/gen/assets.gen.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-class LogoTest {
+class AnyLogoTest {
   // This test will always make sure all the files in
   // the directory are properly loaded. if the folder
   // contains 30 files and 28 are loaded and error has
