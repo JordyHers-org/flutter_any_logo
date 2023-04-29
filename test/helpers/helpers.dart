@@ -98,7 +98,9 @@ class LogoTest {
     final Finder lastItemFinder = find.byType(Image, skipOffstage: false).last;
     final ImageProvider<Object> lastItem =
         tester.widget<Image>(lastItemFinder).image;
-
+    if (kDebugMode) {
+      print(lastItem);
+    }
     final AssetGenImage lastImage = items.last;
     expectLater(lastImage.path, equals(items.last.path));
   }
