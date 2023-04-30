@@ -5,6 +5,7 @@
 
 ## Our aim is to implement 1000+ logos but keep the package as light as possible. 🪽
 
+![logos](https://user-images.githubusercontent.com/49708438/235303282-3d0c03b9-39bc-475e-be86-33ef99305889.jpeg)
 
 A Flutter plugin that provides asset images for popular industry categories.
 It includes 5 main classes, Sports, Fashion, Tech, Food, and Media, each extending their respective interface.
@@ -41,7 +42,13 @@ Import the `flutter_any_logo` package in your Dart code:
 import 'package:flutter_any_logo/flutter_any_logo.dart';
 ```
 
-You can now use the provided `Logo` widgets to display the logos in your app. For example, to display the Instagram logo:
+You can now use the provided `AnyLogo` widget to display the logos in your app. For example, to display the Instagram logo:
+
+```dart
+AnyLogo.media.instagram
+```
+
+#### More examples
 
 ```dart
 import 'package:flutter_any_logo/flutter_any_logo.dart';
@@ -52,11 +59,11 @@ class MyApp extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          Image(image: Nba.atlantaHawks),
-          Image(image: Fashion.lvmh),
-          Image(image: Tech.lenovo),
-          Image(image: Food.nutella),
-          Image(image: Media.netflix),
+          ...AnyLogo.nba.values.map((e) => e.image()).toList(),
+          ...AnyLogo.fashion.values.map((e) => e.image()).toList(),
+          ...AnyLogo.uefa.values.map((e) => e.image()).toList(),
+          ...AnyLogo.food.values.map((e) => e.image()).toList(),
+          ...AnyLogo.tech.values.map((e) => e.image()).toList(),
         ],
       ),
     );
@@ -64,43 +71,59 @@ class MyApp extends StatelessWidget {
 }
 ```
 
+### Variables
+if you want to have access to a type a static method is available
 
-`flutter_any_logo` currently supports the following categories and logos:
+```dart
+// Single Assets Image NBA
+ AnyLogo.nba.atlantaHawks
 
-### Media
+//Access all values in a type
+ AnyLogo.nba.values
 
-- Instagram: `Media.instagram`
-- Facebook: `Media.facebook`
-- Twitter: `Media.twitter`
-- TikTok: `Media.tiktok`
+//Access the image
+AnyLogo.nba.image()
 
-### Sports
+// Key? key,   
+// AssetBundle? bundle,  
+// Widget Function(BuildContext, Widget, int?, bool)? frameBuilder,
+// Widget Function(BuildContext, Object, StackTrace?)? errorBuilder, 
+// String? semanticLabel,  
+// bool excludeFromSemantics = false, 
+// double? scale,  
+// double? width, 
+// double? height, 
+// Color? color,   
+// Animation<double>? opacity,
+// BlendMode? colorBlendMode,  
+// BoxFit? fit, 
+// AlignmentGeometry alignment = Alignment.center, 
+// ImageRepeat repeat = ImageRepeat.noRepeat,  
+// Rect? centerSlice, 
+// bool matchTextDirection = false, 
+// bool gaplessPlayback = false,
+// bool isAntiAlias = false, 
+// String? package, 
+// FilterQuality filterQuality = FilterQuality.low, 
+// int? cacheWidth,  
+// int? cacheHeight,
+// All the variables are sill available
+AnyLogo.nba.image(height: 30);
 
-- NBA: `Nba.atlanta`
-- NFL: `Nfl.detroitLions`
-- Football: `UEFA.barcelona`
+
+//You can still pass just the asset image without calling [.image()]
+Image(image: AssetImage(AnyLogo.nba.atlanta.path)),
 
 
-### Tech
 
-- Apple: `Tech.apple`
-- Tesla: `Tech.tesla`
-- Samsung: `Tech.samsung`
-- Lenovo: `Tech.lenovo`
+```
 
-### Food
+### Warning ⚠️
+ ```shell
+ 😁 New Logos are constantly uploaded and we may have not uploaded a 
+logo you think should be part of the library. Feel free to open an Pull request to have your logo added.
 
-- Cocacola: `Food.cocaCola`
-- Nutella: `Food.nutella`
-- McDonalds: `Food.mcDonalds`
-- Starbucks: `Food.starBucks`
-
-
-### Fashion
-
-- Louis Vuitton: `Fashion.lvmh`
-- Dior: `Fashion.dior`
-- Gucci: `Fashion.gucci`
+```
 
 
 ## Test Strategy 
@@ -118,21 +141,18 @@ The testing approach for this test strategy will involve a combination of manual
 
 #### Test Types:
 - Automated Testing:
-  - Static code analysis to enforce linting rules for file types and size limits
+  - Static code analysis to enforce linting rules for file types and size limits.Automated testing will be performed as part of the CI pipeline for every code push or pull request
 - Unit Testing:
   - widget testing ensures the logos are properly loaded and rendered
 - Manual Testing:
   - Functional testing to verify that PNG files with a size of 400kb or less can be uploaded successfully
   - Exploratory testing to identify any edge cases or potential issues related to PNG file uploads
+  - Manual testing will be performed on an as-needed basis during the testing phase of the development cycle.
 
 #### Test Environment:
 - Development environment: Flutter framework
 - Operating system: Windows, MacOS, Linux
 - Test environment: Local and staging servers
-
-#### Test Data:
-- PNG files with a size of 400kb or less
-- Non-PNG files
 
 #### Test Cases:
 1. Verify that only PNG files with a size of 400kb or less can be uploaded.
@@ -140,25 +160,42 @@ The testing approach for this test strategy will involve a combination of manual
 3. Verify that a success message is displayed when a PNG file with a size of 400kb or less is uploaded successfully.
 4. Verify that the application is able to handle edge cases, such as large or corrupted PNG files.
 
-#### Test Schedule:
-- Automated testing will be performed as part of the CI pipeline for every code push or pull request.
-- Manual testing will be performed on an as-needed basis during the testing phase of the development cycle.
-
-#### Test Deliverables:
-- Test plan
-- Test cases
-- Test results and reports
-- Bug reports
-- Test sign-off
-
-
-This test strategy outlines the objectives, scope, approach, test types, test environment, test data, test cases, test schedule, and test deliverables for the validation of PNG file uploads in the application. It combines automated and manual testing techniques to ensure that only PNG files with a size of 400kb or less can be uploaded successfully.
 
 ## Contributing
 
 Contributions to `flutter_any_logo` are welcome! If you find a bug or would like to suggest a new logo, please create an issue on the GitHub repository.
+If you want to contribute to this open source project hosted on GitHub, follow these steps. 
+Here's a quick guide on how to get started.
+
+#### Step: 1
+
+To make changes to a project, you need to follow these steps 
+
+1. Fork the project
+2. Locate the PNG file that you want to add to the project. add it to `assets/`
+3. If you added a new sub directory update the `pubspec.yaml` file.
+ 
+
+#### Step 2: 
+
+Once you have added the PNG file to your forked repository, you'll need to install the dependencies and build the project before you can see your changes.
+
+1. Open a terminal window and navigate to the project directory.
+2. Run the command `make install` to install the dependencies.
+3. this will install `gnu-sed` using brew. Make sure HomeBrew is installed
+4. if gnu-sed is already installed no need just run `make deploy`.
+
+#### Step 3: 
+
+Make sure you checkout and create a branch following this format:
+
+```shell
+<issueNumber> feat: implement <logoName> to the project
+
+
+#34 feat: implement `kodak` logo to the project.
+```
 
 ## License
 
 `flutter_any_logo` is released under the [MIT License](https://github.com/example/flutter_any_logo/blob/main/LICENSE).
-

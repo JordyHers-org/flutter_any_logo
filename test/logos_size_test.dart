@@ -17,42 +17,42 @@ void main() {
   test(' Basketball : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.nba;
-    LogoTest.testSize(directoryPath);
+    AnyLogoTest.testSize(directoryPath);
   });
 
   test(' Media : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.media;
-    LogoTest.testSize(directoryPath);
+    AnyLogoTest.testSize(directoryPath);
   });
 
   test(' Tech : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.tech;
-    LogoTest.testSize(directoryPath);
+    AnyLogoTest.testSize(directoryPath);
   });
 
   test(' Food : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.food;
-    LogoTest.testSize(directoryPath);
+    AnyLogoTest.testSize(directoryPath);
   });
 
   test(' Football : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.football;
-    LogoTest.testSize(directoryPath);
+    AnyLogoTest.testSize(directoryPath);
   });
 
   test(' Euroleague : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.euroleague;
-    LogoTest.testSize(directoryPath);
+    AnyLogoTest.testSize(directoryPath);
   });
 
   test(' Fashion : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.fashion;
-    LogoTest.testSize(directoryPath);
+    AnyLogoTest.testSize(directoryPath);
   });
 }

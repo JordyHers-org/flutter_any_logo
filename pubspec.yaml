@@ -1,18 +1,34 @@
 name: flutter_any_logo
 
+#description of the package
 description: >-
   All logos are included in this package to provide the largest logo library in flutter. 
   It covers, fashion. Sports, Entertainment, SocialMedia etc...
 
+#Version to be released
 version: 1.0.0
 
+#package homepage:
 homepage: https://github.com/JordyHers/flutter_any_logo
 
+#package repository
+repository: https://github.com/JordyHers/flutter_any_logo
 
+#remove that when the package is ready to be published
+publish_to: none
+
+#environment supported
 environment:
   sdk: '>=2.19.2 <3.0.0'
   flutter: ">=2.5.0"
 
+#screenshots
+screenshots:
+  - description: 'This screenshot shows logos '
+    path: images/logos.jpeg
+
+
+# dependencies
 dependencies:
   flutter:
     sdk: flutter
@@ -49,6 +65,29 @@ flutter:
         pluginClass: FlutterAnyLogoPlugin
       windows:
         pluginClass: FlutterAnyLogoPluginCApi
+
+
+#funding url
+funding:
+  - https://patreon.com/user?u=91968185
+
+#supported platforms
+platforms:
+  android:
+  ios:
+  linux:
+  windows:
+  macos:
+
+#licence supported
+license: MIT
+
+
+
+
+
+
+
 
 
 
