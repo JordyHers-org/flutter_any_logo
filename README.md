@@ -71,9 +71,6 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-
-`flutter_any_logo` currently supports the following categories and logos:
-
 ### Variables
 if you want to have access to a type a static method is available
 
@@ -122,8 +119,11 @@ Image(image: AssetImage(AnyLogo.nba.atlanta.path)),
 ```
 
 ### Warning ⚠️
-> 😁 New Logos are constantly uploaded and we may have not uploaded a 
+ ```shell
+ 😁 New Logos are constantly uploaded and we may have not uploaded a 
 logo you think should be part of the library. Feel free to open an Pull request to have your logo added.
+
+```
 
 
 ## Test Strategy 
@@ -141,21 +141,18 @@ The testing approach for this test strategy will involve a combination of manual
 
 #### Test Types:
 - Automated Testing:
-  - Static code analysis to enforce linting rules for file types and size limits
+  - Static code analysis to enforce linting rules for file types and size limits.Automated testing will be performed as part of the CI pipeline for every code push or pull request
 - Unit Testing:
   - widget testing ensures the logos are properly loaded and rendered
 - Manual Testing:
   - Functional testing to verify that PNG files with a size of 400kb or less can be uploaded successfully
   - Exploratory testing to identify any edge cases or potential issues related to PNG file uploads
+  - Manual testing will be performed on an as-needed basis during the testing phase of the development cycle.
 
 #### Test Environment:
 - Development environment: Flutter framework
 - Operating system: Windows, MacOS, Linux
 - Test environment: Local and staging servers
-
-#### Test Data:
-- PNG files with a size of 400kb or less
-- Non-PNG files
 
 #### Test Cases:
 1. Verify that only PNG files with a size of 400kb or less can be uploaded.
@@ -163,25 +160,42 @@ The testing approach for this test strategy will involve a combination of manual
 3. Verify that a success message is displayed when a PNG file with a size of 400kb or less is uploaded successfully.
 4. Verify that the application is able to handle edge cases, such as large or corrupted PNG files.
 
-#### Test Schedule:
-- Automated testing will be performed as part of the CI pipeline for every code push or pull request.
-- Manual testing will be performed on an as-needed basis during the testing phase of the development cycle.
-
-#### Test Deliverables:
-- Test plan
-- Test cases
-- Test results and reports
-- Bug reports
-- Test sign-off
-
-
-This test strategy outlines the objectives, scope, approach, test types, test environment, test data, test cases, test schedule, and test deliverables for the validation of PNG file uploads in the application. It combines automated and manual testing techniques to ensure that only PNG files with a size of 400kb or less can be uploaded successfully.
 
 ## Contributing
 
 Contributions to `flutter_any_logo` are welcome! If you find a bug or would like to suggest a new logo, please create an issue on the GitHub repository.
+If you want to contribute to this open source project hosted on GitHub, follow these steps. 
+Here's a quick guide on how to get started.
+
+#### Step: 1
+
+To make changes to a project, you need to follow these steps 
+
+1. Fork the project
+2. Locate the PNG file that you want to add to the project. add it to `assets/`
+3. If you added a new sub directory update the `pubspec.yaml` file.
+ 
+
+#### Step 2: 
+
+Once you have added the PNG file to your forked repository, you'll need to install the dependencies and build the project before you can see your changes.
+
+1. Open a terminal window and navigate to the project directory.
+2. Run the command `make install` to install the dependencies.
+3. this will install `gnu-sed` using brew. Make sure HomeBrew is installed
+4. if gnu-sed is already installed no need just run `make deploy`.
+
+#### Step 3: 
+
+Make sure you checkout and create a branch following this format:
+
+```shell
+<issueNumber> feat: implement <logoName> to the project
+
+
+#34 feat: implement `kodak` logo to the project.
+```
 
 ## License
 
 `flutter_any_logo` is released under the [MIT License](https://github.com/example/flutter_any_logo/blob/main/LICENSE).
-
