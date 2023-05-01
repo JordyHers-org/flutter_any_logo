@@ -56,4 +56,15 @@ class PumpWidget {
           }),
     ),
   );
+
+  // Launch all logos in NFL folder
+  static Widget nfl = MaterialApp(
+    home: Scaffold(
+      body: ListView.builder(
+          itemCount: AnyLogo.nfl.values.length,
+          itemBuilder: (BuildContext context, int index) {
+            return AnyLogo.nfl.values[index].image();
+          }),
+    ),
+  );
 }
