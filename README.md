@@ -8,7 +8,7 @@
 ![logos](https://user-images.githubusercontent.com/49708438/235303282-3d0c03b9-39bc-475e-be86-33ef99305889.jpeg)
 
 A Flutter plugin that provides asset images for popular industry categories.
-It includes 5 main classes, Sports, Fashion, Tech, Food, and Media, each extending their respective interface.
+It includes 5 main classes, Sports, Fashion, Tech, Daily, and Media, each extending their respective interface.
 This plugin can be useful for projects that require industry-related images. This plugin can be useful for various
 projects, such as Quizz app, Catalogs, eCommerce App, Templates, Websites, and more. It can be especially usefu
 l for projects that require industry-related images.
@@ -62,8 +62,9 @@ class MyApp extends StatelessWidget {
           ...AnyLogo.nba.values.map((e) => e.image()).toList(),
           ...AnyLogo.fashion.values.map((e) => e.image()).toList(),
           ...AnyLogo.uefa.values.map((e) => e.image()).toList(),
-          ...AnyLogo.food.values.map((e) => e.image()).toList(),
+          ...AnyLogo.daily.values.map((e) => e.image()).toList(),
           ...AnyLogo.tech.values.map((e) => e.image()).toList(),
+          ...AnyLogo.nfl.values.map((e) => e.image()).toList(),
         ],
       ),
     );
