@@ -9,7 +9,7 @@ class AssetPath {
 
   static const String tech = 'packages/flutter_any_logo/assets/tech/';
 
-  static const String food = 'packages/flutter_any_logo/assets/food/';
+  static const String daily = 'packages/flutter_any_logo/assets/daily/';
 
   static const String media = 'packages/flutter_any_logo/assets/media/';
 }
@@ -63,7 +63,7 @@ abstract class TechInterface {
   // Lenovo0 Paypal Revolut
 }
 
-abstract class FoodInterface {
+abstract class DailyInterface {
   // nutella
   // Cocacola
   // McDonalds

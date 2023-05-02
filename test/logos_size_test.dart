@@ -34,7 +34,7 @@ void main() {
 
   test(' Food : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
-    const String directoryPath = Const.food;
+    const String directoryPath = Const.daily;
     AnyLogoTest.testSize(directoryPath);
   });
 

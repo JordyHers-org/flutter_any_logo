@@ -8,9 +8,9 @@
 ![logos](https://user-images.githubusercontent.com/49708438/235303282-3d0c03b9-39bc-475e-be86-33ef99305889.jpeg)
 
 A Flutter plugin that provides asset images for popular industry categories.
-It includes 5 main classes, Sports, Fashion, Tech, Food, and Media, each extending their respective interface.
+It includes 5 main classes, Sports, Fashion, Tech, Daily, and Media, each extending their respective interface.
 This plugin can be useful for projects that require industry-related images. This plugin can be useful for various
-projects, such as Quizz app, Catalogs, eCommerce App, Templates, Websites, and more. It can be especially usefu
+projects, such as Quiz app, Catalogs, eCommerce App, Templates, Websites, and more. It can be especially usefu
 l for projects that require industry-related images.
 
 
@@ -18,9 +18,10 @@ l for projects that require industry-related images.
 
 ## Screenshots
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/49708438/234598133-8159f94e-63ac-4dfc-acd8-bb5c7901c0da.gif" alt="Demo"/>
-</p>
+<div>
+ <img width="542" alt="Screenshot 2023-05-02 at 09 24 49" src="https://user-images.githubusercontent.com/49708438/235604942-bb731508-ca3e-4d6f-b7f6-a976f9dbe93f.png">
+<img width="542" alt="Screenshot 2023-05-02 at 09 28 25" src="https://user-images.githubusercontent.com/49708438/235605666-35d0fc49-3f3a-4cc1-a435-b323bd5e5216.png">
+</div>
 
 
 ## Installation
@@ -56,14 +57,17 @@ import 'package:flutter_any_logo/flutter_any_logo.dart';
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
+    return Center(
+      child: GridView.count(
+        crossAxisCount: 5,
         children: [
+          ...AnyLogo.cricket.values.map((e) => e.image()).toList(),
           ...AnyLogo.nba.values.map((e) => e.image()).toList(),
           ...AnyLogo.fashion.values.map((e) => e.image()).toList(),
           ...AnyLogo.uefa.values.map((e) => e.image()).toList(),
-          ...AnyLogo.food.values.map((e) => e.image()).toList(),
+          ...AnyLogo.daily.values.map((e) => e.image()).toList(),
           ...AnyLogo.tech.values.map((e) => e.image()).toList(),
+          ...AnyLogo.nfl.values.map((e) => e.image()).toList(),
         ],
       ),
     );
@@ -75,14 +79,15 @@ class MyApp extends StatelessWidget {
 if you want to have access to a type a static method is available
 
 ```dart
+
 // Single Assets Image NBA
- AnyLogo.nba.atlantaHawks
+ AnyLogo.daily.mcDonalds
 
 //Access all values in a type
  AnyLogo.nba.values
 
-//Access the image
-AnyLogo.nba.image()
+//Access the Image
+AnyLogo.uefa.manchesterUnited.image()
 
 // Key? key,   
 // AssetBundle? bundle,  
@@ -108,13 +113,49 @@ AnyLogo.nba.image()
 // int? cacheWidth,  
 // int? cacheHeight,
 // All the variables are sill available
-AnyLogo.nba.image(height: 30);
+AnyLogo.nba.image(height: 30, fit: BoxFit.contain);
 
 
 //You can still pass just the asset image without calling [.image()]
 Image(image: AssetImage(AnyLogo.nba.atlanta.path)),
 
+// UEFA section contains football teams ⚽️
+AnyLogo.uefa.acMilan
+AnyLogo.uefa.barcelona
 
+// Daily section contains everyday brands food related etc.. 🍟
+AnyLogo.daily.gillette
+AnyLogo.daily.nutella
+AnyLogo.daily.kellogs
+
+// NFL section contains nfl teams 🏈
+AnyLogo.nfl.nflArizonaCardinals
+AnyLogo.nfl.nflBuffaloBills
+
+// Fashion section contains clothing / perfume / luxury / watches ⌚️
+AnyLogo.fashion.louisVuitton
+AnyLogo.fashion.gucci
+AnyLogo.fashion.prada
+
+// NBA section contains all nba teams 🏀
+AnyLogo.nba.miamiHeat
+AnyLogo.nba.losAngelesClippers
+AnyLogo.nba.goldenStateWarriors
+
+// Tech contains all brands and tech companies  🕹️
+AnyLogo.tech.playstation
+AnyLogo.tech.siemens
+AnyLogo.tech.visa
+
+// Media section contains social media and area like 🛜
+AnyLogo.media.instagram
+AnyLogo.media.tiktok
+AnyLogo.media.facebook
+
+// Cricket section contains social media and area like 🏏
+AnyLogo.cricket.cscs
+AnyLogo.cricket.gurajatLions
+AnyLogo.cricket.mumbaiIndians
 
 ```
 

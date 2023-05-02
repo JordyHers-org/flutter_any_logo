@@ -46,11 +46,14 @@ dev_dependencies:
 flutter:
   assets:
     - assets/nba/
+    - assets/euroleague/
     - assets/football/
     - assets/fashion/
-    - assets/food/
+    - assets/cricket/
+    - assets/daily/
     - assets/media/
     - assets/tech/
+    - assets/nfl/
 
   plugin:
     platforms:

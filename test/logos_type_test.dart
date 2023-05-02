@@ -30,7 +30,7 @@ void main() {
 
   test(' Food : Verify that all logos are PNG files', () {
     // Define the path to the local directory folder containing images
-    const String directoryPath = Const.food;
+    const String directoryPath = Const.daily;
     AnyLogoTest.testType(directoryPath);
   });
 
