@@ -5,7 +5,9 @@
 * Implemented core functionality of the application
 * Created user interface for the application
 
+## 1.0.1
 
+* Ios crash bug 
 
 
 
