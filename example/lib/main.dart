@@ -19,18 +19,17 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: SizedBox(
-            width: 200,
-            child: ListView(
-              children: [
-                ...AnyLogo.nba.values.map((e) => e.image()).toList(),
-                ...AnyLogo.fashion.values.map((e) => e.image()).toList(),
-                ...AnyLogo.uefa.values.map((e) => e.image()).toList(),
-                ...AnyLogo.daily.values.map((e) => e.image()).toList(),
-                ...AnyLogo.tech.values.map((e) => e.image()).toList(),
-                ...AnyLogo.nfl.values.map((e) => e.image()).toList(),
-              ],
-            ),
+          child: GridView.count(
+            crossAxisCount: 5,
+            children: [
+              ...AnyLogo.cricket.values.map((e) => e.image()).toList(),
+              ...AnyLogo.nba.values.map((e) => e.image()).toList(),
+              ...AnyLogo.fashion.values.map((e) => e.image()).toList(),
+              ...AnyLogo.uefa.values.map((e) => e.image()).toList(),
+              ...AnyLogo.daily.values.map((e) => e.image()).toList(),
+              ...AnyLogo.tech.values.map((e) => e.image()).toList(),
+              ...AnyLogo.nfl.values.map((e) => e.image()).toList(),
+            ],
           ),
         ),
       ),

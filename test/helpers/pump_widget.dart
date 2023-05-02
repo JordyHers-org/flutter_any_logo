@@ -67,4 +67,15 @@ class PumpWidget {
           }),
     ),
   );
+
+  // Launch all logos in Cricket folder
+  static Widget cricket = MaterialApp(
+    home: Scaffold(
+      body: ListView.builder(
+          itemCount: AnyLogo.cricket.values.length,
+          itemBuilder: (BuildContext context, int index) {
+            return AnyLogo.cricket.values[index].image();
+          }),
+    ),
+  );
 }

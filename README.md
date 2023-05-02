@@ -56,9 +56,11 @@ import 'package:flutter_any_logo/flutter_any_logo.dart';
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
+    return Center(
+      child: GridView.count(
+        crossAxisCount: 5,
         children: [
+          ...AnyLogo.cricket.values.map((e) => e.image()).toList(),
           ...AnyLogo.nba.values.map((e) => e.image()).toList(),
           ...AnyLogo.fashion.values.map((e) => e.image()).toList(),
           ...AnyLogo.uefa.values.map((e) => e.image()).toList(),
@@ -148,6 +150,11 @@ AnyLogo.tech.visa
 AnyLogo.media.instagram
 AnyLogo.media.tiktok
 AnyLogo.media.facebook
+
+// Cricket section contains social media and area like 🏏
+AnyLogo.cricket.cscs
+AnyLogo.cricket.gurajatLions
+AnyLogo.cricket.mumbaiIndians
 
 ```
 

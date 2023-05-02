@@ -9,6 +9,77 @@
 
 import 'package:flutter/widgets.dart';
 
+class $AssetsCricketGen {
+  const $AssetsCricketGen();
+
+  /// File path: packages/flutter_any_logo/assets/cricket/bangaloreRoyalChallengers.png
+  AssetGenImage get bangaloreRoyalChallengers =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/bangaloreRoyalChallengers.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/chennaiSuperKings.png
+  AssetGenImage get chennaiSuperKings =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/chennaiSuperKings.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/cscs.png
+  AssetGenImage get cscs => const AssetGenImage('packages/flutter_any_logo/assets/cricket/cscs.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/deccanChargers.png
+  AssetGenImage get deccanChargers =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/deccanChargers.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/dehliCapitals.png
+  AssetGenImage get dehliCapitals =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/dehliCapitals.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/durhamCricket.png
+  AssetGenImage get durhamCricket =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/durhamCricket.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/gurajatLions.png
+  AssetGenImage get gurajatLions =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/gurajatLions.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/hpca.png
+  AssetGenImage get hpca => const AssetGenImage('packages/flutter_any_logo/assets/cricket/hpca.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/hubliTigers.png
+  AssetGenImage get hubliTigers =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/hubliTigers.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/kolkataKnightRiders.png
+  AssetGenImage get kolkataKnightRiders =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/kolkataKnightRiders.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/luckNowSuperGiants.png
+  AssetGenImage get luckNowSuperGiants =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/luckNowSuperGiants.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/mumbaiIndians.png
+  AssetGenImage get mumbaiIndians =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/mumbaiIndians.png');
+
+  /// File path: packages/flutter_any_logo/assets/cricket/sunrisersHyderabad.png
+  AssetGenImage get sunrisersHyderabad =>
+      const AssetGenImage('packages/flutter_any_logo/assets/cricket/sunrisersHyderabad.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+        bangaloreRoyalChallengers,
+        chennaiSuperKings,
+        cscs,
+        deccanChargers,
+        dehliCapitals,
+        durhamCricket,
+        gurajatLions,
+        hpca,
+        hubliTigers,
+        kolkataKnightRiders,
+        luckNowSuperGiants,
+        mumbaiIndians,
+        sunrisersHyderabad
+      ];
+}
+
 class $AssetsDailyGen {
   const $AssetsDailyGen();
 
@@ -946,6 +1017,7 @@ class $AssetsTechGen {
 class Assets {
   Assets._();
 
+  static const $AssetsCricketGen cricket = $AssetsCricketGen();
   static const $AssetsDailyGen daily = $AssetsDailyGen();
   static const $AssetsEuroleagueGen euroleague = $AssetsEuroleagueGen();
   static const $AssetsFashionGen fashion = $AssetsFashionGen();
