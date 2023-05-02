@@ -18,11 +18,10 @@ l for projects that require industry-related images.
 
 ## Screenshots
 
-<p align="center">
-  <img width="542" alt="Screenshot 2023-05-02 at 09 24 49" src="https://user-images.githubusercontent.com/49708438/235604942-bb731508-ca3e-4d6f-b7f6-a976f9dbe93f.png">
+<div>
+ <img width="542" alt="Screenshot 2023-05-02 at 09 24 49" src="https://user-images.githubusercontent.com/49708438/235604942-bb731508-ca3e-4d6f-b7f6-a976f9dbe93f.png">
 <img width="542" alt="Screenshot 2023-05-02 at 09 28 25" src="https://user-images.githubusercontent.com/49708438/235605666-35d0fc49-3f3a-4cc1-a435-b323bd5e5216.png">
-
-</p>
+</div>
 
 
 ## Installation
