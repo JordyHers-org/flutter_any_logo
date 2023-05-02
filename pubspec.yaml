@@ -15,7 +15,7 @@ homepage: https://github.com/JordyHers/flutter_any_logo
 repository: https://github.com/JordyHers/flutter_any_logo
 
 #remove that when the package is ready to be published
-publish_to: none
+#publish_to: none
 
 #environment supported
 environment:
@@ -24,8 +24,12 @@ environment:
 
 #screenshots
 screenshots:
-  - description: 'This screenshot shows logos '
+  - description: ' All logos intro '
     path: images/logos.jpeg
+  - description: 'First part of demo'
+    path: images/demo1.png
+  - description: 'Last part of demo'
+    path: images/demo2.png
 
 
 # dependencies
