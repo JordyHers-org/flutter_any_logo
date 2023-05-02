@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/gen/assets.gen.dart';
 
 class AnyLogo {
@@ -13,7 +14,7 @@ class AnyLogo {
   static const $AssetsEuroleagueGen euroleague = $AssetsEuroleagueGen();
   static const $AssetsCricketGen cricket = $AssetsCricketGen();
 
-  static List<dynamic> values = <dynamic>[
+  static List<dynamic> values = <Widget>[
     ...AnyLogo.cricket.values.map((AssetGenImage e) => e.image()).toList(),
     ...AnyLogo.nba.values.map((AssetGenImage e) => e.image()).toList(),
     ...AnyLogo.nfl.values.map((AssetGenImage e) => e.image()).toList(),
