@@ -10,4 +10,5 @@ class AnyLogo {
   static const $AssetsNbaGen nba = $AssetsNbaGen();
   static const $AssetsTechGen tech = $AssetsTechGen();
   static const $AssetsNflGen nfl = $AssetsNflGen();
+  static const $AssetsEuroleagueGen euroleague = $AssetsEuroleagueGen();
 }
