@@ -12,4 +12,15 @@ class AnyLogo {
   static const $AssetsNflGen nfl = $AssetsNflGen();
   static const $AssetsEuroleagueGen euroleague = $AssetsEuroleagueGen();
   static const $AssetsCricketGen cricket = $AssetsCricketGen();
+
+  static List<dynamic> values = <dynamic>[
+    ...AnyLogo.cricket.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.nba.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.nfl.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.uefa.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.fashion.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.daily.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.tech.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.media.values.map((AssetGenImage e) => e.image()).toList(),
+  ];
 }

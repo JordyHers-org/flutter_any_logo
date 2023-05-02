@@ -66,7 +66,8 @@ class MyApp extends StatelessWidget {
           ...AnyLogo.uefa.values.map((e) => e.image()).toList(),
           ...AnyLogo.daily.values.map((e) => e.image()).toList(),
           ...AnyLogo.tech.values.map((e) => e.image()).toList(),
-          ...AnyLogo.nfl.values.map((e) => e.image()).toList(),
+          ...AnyLogo.nfl.values.map((e) => e.image()).toList(), 
+          ...AnyLogo.media.values.map((e) => e.image()).toList(),
         ],
       ),
     );

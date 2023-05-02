@@ -160,12 +160,56 @@ class $AssetsFashionGen {
   AssetGenImage get balenciaga =>
       const AssetGenImage('packages/flutter_any_logo/assets/fashion/balenciaga.png');
 
+  /// File path: packages/flutter_any_logo/assets/fashion/bananaRepublic.png
+  AssetGenImage get bananaRepublic =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/bananaRepublic.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/bershka.png
+  AssetGenImage get bershka =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/bershka.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/boots.png
+  AssetGenImage get boots => const AssetGenImage('packages/flutter_any_logo/assets/fashion/boots.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/breitling.png
+  AssetGenImage get breitling =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/breitling.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/burberry.png
+  AssetGenImage get burberry =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/burberry.png');
+
   /// File path: packages/flutter_any_logo/assets/fashion/calvinklein.png
   AssetGenImage get calvinklein =>
       const AssetGenImage('packages/flutter_any_logo/assets/fashion/calvinklein.png');
 
+  /// File path: packages/flutter_any_logo/assets/fashion/calzedonia.png
+  AssetGenImage get calzedonia =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/calzedonia.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/camper.png
+  AssetGenImage get camper => const AssetGenImage('packages/flutter_any_logo/assets/fashion/camper.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/cartier.png
+  AssetGenImage get cartier =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/cartier.png');
+
   /// File path: packages/flutter_any_logo/assets/fashion/chanel.png
   AssetGenImage get chanel => const AssetGenImage('packages/flutter_any_logo/assets/fashion/chanel.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/coach.png
+  AssetGenImage get coach => const AssetGenImage('packages/flutter_any_logo/assets/fashion/coach.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/converse.png
+  AssetGenImage get converse =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/converse.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/crocs.png
+  AssetGenImage get crocs => const AssetGenImage('packages/flutter_any_logo/assets/fashion/crocs.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/deichmann.png
+  AssetGenImage get deichmann =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/deichmann.png');
 
   /// File path: packages/flutter_any_logo/assets/fashion/diesel.png
   AssetGenImage get diesel => const AssetGenImage('packages/flutter_any_logo/assets/fashion/diesel.png');
@@ -185,6 +229,26 @@ class $AssetsFashionGen {
   AssetGenImage get esteeLauder =>
       const AssetGenImage('packages/flutter_any_logo/assets/fashion/esteeLauder.png');
 
+  /// File path: packages/flutter_any_logo/assets/fashion/fendi.png
+  AssetGenImage get fendi => const AssetGenImage('packages/flutter_any_logo/assets/fashion/fendi.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/fila.png
+  AssetGenImage get fila => const AssetGenImage('packages/flutter_any_logo/assets/fashion/fila.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/footlocker.png
+  AssetGenImage get footlocker =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/footlocker.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/fossil.png
+  AssetGenImage get fossil => const AssetGenImage('packages/flutter_any_logo/assets/fashion/fossil.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/g-starRaw.png
+  AssetGenImage get gStarRaw =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/g-starRaw.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/gant.png
+  AssetGenImage get gant => const AssetGenImage('packages/flutter_any_logo/assets/fashion/gant.png');
+
   /// File path: packages/flutter_any_logo/assets/fashion/gap.png
   AssetGenImage get gap => const AssetGenImage('packages/flutter_any_logo/assets/fashion/gap.png');
 
@@ -199,8 +263,15 @@ class $AssetsFashionGen {
   /// File path: packages/flutter_any_logo/assets/fashion/gucci.png
   AssetGenImage get gucci => const AssetGenImage('packages/flutter_any_logo/assets/fashion/gucci.png');
 
+  /// File path: packages/flutter_any_logo/assets/fashion/hermes.png
+  AssetGenImage get hermes => const AssetGenImage('packages/flutter_any_logo/assets/fashion/hermes.png');
+
   /// File path: packages/flutter_any_logo/assets/fashion/hm.png
   AssetGenImage get hm => const AssetGenImage('packages/flutter_any_logo/assets/fashion/hm.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/hollisterCalifornia.png
+  AssetGenImage get hollisterCalifornia =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/hollisterCalifornia.png');
 
   /// File path: packages/flutter_any_logo/assets/fashion/jeanpaulgauthier.png
   AssetGenImage get jeanpaulgauthier =>
@@ -208,6 +279,9 @@ class $AssetsFashionGen {
 
   /// File path: packages/flutter_any_logo/assets/fashion/jordan.png
   AssetGenImage get jordan => const AssetGenImage('packages/flutter_any_logo/assets/fashion/jordan.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/kenzo.png
+  AssetGenImage get kenzo => const AssetGenImage('packages/flutter_any_logo/assets/fashion/kenzo.png');
 
   /// File path: packages/flutter_any_logo/assets/fashion/lacoste.png
   AssetGenImage get lacoste =>
@@ -240,11 +314,57 @@ class $AssetsFashionGen {
   /// File path: packages/flutter_any_logo/assets/fashion/nike.png
   AssetGenImage get nike => const AssetGenImage('packages/flutter_any_logo/assets/fashion/nike.png');
 
+  /// File path: packages/flutter_any_logo/assets/fashion/ninaRicci.png
+  AssetGenImage get ninaRicci =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/ninaRicci.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/omega.png
+  AssetGenImage get omega => const AssetGenImage('packages/flutter_any_logo/assets/fashion/omega.png');
+
   /// File path: packages/flutter_any_logo/assets/fashion/prada.png
   AssetGenImage get prada => const AssetGenImage('packages/flutter_any_logo/assets/fashion/prada.png');
 
+  /// File path: packages/flutter_any_logo/assets/fashion/primark.png
+  AssetGenImage get primark =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/primark.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/pullBear.png
+  AssetGenImage get pullBear =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/pullBear.png');
+
   /// File path: packages/flutter_any_logo/assets/fashion/puma.png
   AssetGenImage get puma => const AssetGenImage('packages/flutter_any_logo/assets/fashion/puma.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/ralphLauren.png
+  AssetGenImage get ralphLauren =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/ralphLauren.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/rayban.png
+  AssetGenImage get rayban => const AssetGenImage('packages/flutter_any_logo/assets/fashion/rayban.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/reebok.png
+  AssetGenImage get reebok => const AssetGenImage('packages/flutter_any_logo/assets/fashion/reebok.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/rolex.png
+  AssetGenImage get rolex => const AssetGenImage('packages/flutter_any_logo/assets/fashion/rolex.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/sebago.png
+  AssetGenImage get sebago => const AssetGenImage('packages/flutter_any_logo/assets/fashion/sebago.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/sephora.png
+  AssetGenImage get sephora =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/sephora.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/swatch.png
+  AssetGenImage get swatch => const AssetGenImage('packages/flutter_any_logo/assets/fashion/swatch.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/theNorthFace.png
+  AssetGenImage get theNorthFace =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/theNorthFace.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/tiffanyCo.png
+  AssetGenImage get tiffanyCo =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/tiffanyCo.png');
 
   /// File path: packages/flutter_any_logo/assets/fashion/timberland.png
   AssetGenImage get timberland =>
@@ -254,12 +374,31 @@ class $AssetsFashionGen {
   AssetGenImage get tommyHilfiger =>
       const AssetGenImage('packages/flutter_any_logo/assets/fashion/tommyHilfiger.png');
 
+  /// File path: packages/flutter_any_logo/assets/fashion/underArmour.png
+  AssetGenImage get underArmour =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/underArmour.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/uniqlo.png
+  AssetGenImage get uniqlo => const AssetGenImage('packages/flutter_any_logo/assets/fashion/uniqlo.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/unitedColorsOfBenetton.png
+  AssetGenImage get unitedColorsOfBenetton =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/unitedColorsOfBenetton.png');
+
   /// File path: packages/flutter_any_logo/assets/fashion/vans.png
   AssetGenImage get vans => const AssetGenImage('packages/flutter_any_logo/assets/fashion/vans.png');
 
   /// File path: packages/flutter_any_logo/assets/fashion/versace.png
   AssetGenImage get versace =>
       const AssetGenImage('packages/flutter_any_logo/assets/fashion/versace.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/victoriaSecret.png
+  AssetGenImage get victoriaSecret =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/victoriaSecret.png');
+
+  /// File path: packages/flutter_any_logo/assets/fashion/yvesSaintLaurent.png
+  AssetGenImage get yvesSaintLaurent =>
+      const AssetGenImage('packages/flutter_any_logo/assets/fashion/yvesSaintLaurent.png');
 
   /// File path: packages/flutter_any_logo/assets/fashion/zara.png
   AssetGenImage get zara => const AssetGenImage('packages/flutter_any_logo/assets/fashion/zara.png');
@@ -268,20 +407,41 @@ class $AssetsFashionGen {
   List<AssetGenImage> get values => [
         adidas,
         balenciaga,
+        bananaRepublic,
+        bershka,
+        boots,
+        breitling,
+        burberry,
         calvinklein,
+        calzedonia,
+        camper,
+        cartier,
         chanel,
+        coach,
+        converse,
+        crocs,
+        deichmann,
         diesel,
         dior,
         dolceGabbana,
         emporioArmani,
         esteeLauder,
+        fendi,
+        fila,
+        footlocker,
+        fossil,
+        gStarRaw,
+        gant,
         gap,
         giorgioArmani,
         givenchy,
         gucci,
+        hermes,
         hm,
+        hollisterCalifornia,
         jeanpaulgauthier,
         jordan,
+        kenzo,
         lacoste,
         levis,
         loreal,
@@ -291,12 +451,30 @@ class $AssetsFashionGen {
         maybelline,
         michaelKors,
         nike,
+        ninaRicci,
+        omega,
         prada,
+        primark,
+        pullBear,
         puma,
+        ralphLauren,
+        rayban,
+        reebok,
+        rolex,
+        sebago,
+        sephora,
+        swatch,
+        theNorthFace,
+        tiffanyCo,
         timberland,
         tommyHilfiger,
+        underArmour,
+        uniqlo,
+        unitedColorsOfBenetton,
         vans,
         versace,
+        victoriaSecret,
+        yvesSaintLaurent,
         zara
       ];
 }
@@ -933,6 +1111,9 @@ class $AssetsTechGen {
   /// File path: packages/flutter_any_logo/assets/tech/acer.png
   AssetGenImage get acer => const AssetGenImage('packages/flutter_any_logo/assets/tech/acer.png');
 
+  /// File path: packages/flutter_any_logo/assets/tech/adobe.png
+  AssetGenImage get adobe => const AssetGenImage('packages/flutter_any_logo/assets/tech/adobe.png');
+
   /// File path: packages/flutter_any_logo/assets/tech/apple.png
   AssetGenImage get apple => const AssetGenImage('packages/flutter_any_logo/assets/tech/apple.png');
 
@@ -950,6 +1131,9 @@ class $AssetsTechGen {
 
   /// File path: packages/flutter_any_logo/assets/tech/kodak.png
   AssetGenImage get kodak => const AssetGenImage('packages/flutter_any_logo/assets/tech/kodak.png');
+
+  /// File path: packages/flutter_any_logo/assets/tech/laravel.png
+  AssetGenImage get laravel => const AssetGenImage('packages/flutter_any_logo/assets/tech/laravel.png');
 
   /// File path: packages/flutter_any_logo/assets/tech/lenovo.png
   AssetGenImage get lenovo => const AssetGenImage('packages/flutter_any_logo/assets/tech/lenovo.png');
@@ -972,14 +1156,27 @@ class $AssetsTechGen {
   AssetGenImage get playstation =>
       const AssetGenImage('packages/flutter_any_logo/assets/tech/playstation.png');
 
+  /// File path: packages/flutter_any_logo/assets/tech/salesforce.png
+  AssetGenImage get salesforce =>
+      const AssetGenImage('packages/flutter_any_logo/assets/tech/salesforce.png');
+
   /// File path: packages/flutter_any_logo/assets/tech/samsung.png
   AssetGenImage get samsung => const AssetGenImage('packages/flutter_any_logo/assets/tech/samsung.png');
+
+  /// File path: packages/flutter_any_logo/assets/tech/shopify.png
+  AssetGenImage get shopify => const AssetGenImage('packages/flutter_any_logo/assets/tech/shopify.png');
 
   /// File path: packages/flutter_any_logo/assets/tech/siemens.png
   AssetGenImage get siemens => const AssetGenImage('packages/flutter_any_logo/assets/tech/siemens.png');
 
   /// File path: packages/flutter_any_logo/assets/tech/sony.png
   AssetGenImage get sony => const AssetGenImage('packages/flutter_any_logo/assets/tech/sony.png');
+
+  /// File path: packages/flutter_any_logo/assets/tech/stripe.png
+  AssetGenImage get stripe => const AssetGenImage('packages/flutter_any_logo/assets/tech/stripe.png');
+
+  /// File path: packages/flutter_any_logo/assets/tech/uber.png
+  AssetGenImage get uber => const AssetGenImage('packages/flutter_any_logo/assets/tech/uber.png');
 
   /// File path: packages/flutter_any_logo/assets/tech/visa.png
   AssetGenImage get visa => const AssetGenImage('packages/flutter_any_logo/assets/tech/visa.png');
@@ -993,21 +1190,27 @@ class $AssetsTechGen {
   /// List of all assets
   List<AssetGenImage> get values => [
         acer,
+        adobe,
         apple,
         google,
         hp,
         ibm,
         intel,
         kodak,
+        laravel,
         lenovo,
         masterCard,
         meta,
         microsoft,
         paypal,
         playstation,
+        salesforce,
         samsung,
+        shopify,
         siemens,
         sony,
+        stripe,
+        uber,
         visa,
         xbox,
         xiaomi
