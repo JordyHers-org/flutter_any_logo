@@ -32,7 +32,7 @@ void main() {
     AnyLogoTest.testSize(directoryPath);
   });
 
-  test(' Food : Loaded image sizes should be less than 400KB', () {
+  test(' Daily : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.daily;
     AnyLogoTest.testSize(directoryPath);
@@ -41,12 +41,6 @@ void main() {
   test(' Football : Loaded image sizes should be less than 400KB', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.football;
-    AnyLogoTest.testSize(directoryPath);
-  });
-
-  test(' Euroleague : Loaded image sizes should be less than 400KB', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.euroleague;
     AnyLogoTest.testSize(directoryPath);
   });
 

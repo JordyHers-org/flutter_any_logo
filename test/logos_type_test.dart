@@ -28,7 +28,7 @@ void main() {
     AnyLogoTest.testType(directoryPath);
   });
 
-  test(' Food : Verify that all logos are PNG files', () {
+  test(' Daily : Verify that all logos are PNG files', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.daily;
     AnyLogoTest.testType(directoryPath);
@@ -37,12 +37,6 @@ void main() {
   test(' Football : Verify that all logos are PNG files', () {
     // Define the path to the local directory folder containing images
     const String directoryPath = Const.football;
-    AnyLogoTest.testType(directoryPath);
-  });
-
-  test(' Euroleague : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.euroleague;
     AnyLogoTest.testType(directoryPath);
   });
 

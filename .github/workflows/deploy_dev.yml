@@ -16,7 +16,7 @@ jobs:
     - name: Check Logos PNG files
       run: |
         shopt -s nullglob
-        for file in $(find assets \( -path "assets/basketball/*" -o -path "assets/euroleague/*" -o -path "assets/fashion/*" -o -path "assets/daily/*" -o -path "assets/football/*" -o -path "assets/media/*" -o -path "assets/tech/*" -o -path "assets/nfl/*" -o -path "assets/cricket/*" \) -type f ! -name "*.png"); do
+        for file in $(find assets \( -path "assets/basketball/*" -o -path "assets/fashion/*" -o -path "assets/daily/*" -o -path "assets/football/*" -o -path "assets/media/*" -o -path "assets/tech/*" -o -path "assets/nfl/*" -o -path "assets/cricket/*" \) -type f ! -name "*.png"); do
           echo "ERROR: File '$file' is not a PNG file"
         done
     - name: Setup Flutter

@@ -18,10 +18,11 @@ l for projects that require industry-related images.
 
 ## Screenshots
 
-<div>
- <img width="542" alt="Screenshot 2023-05-02 at 09 24 49" src="https://user-images.githubusercontent.com/49708438/235604942-bb731508-ca3e-4d6f-b7f6-a976f9dbe93f.png">
-<img width="542" alt="Screenshot 2023-05-02 at 09 28 25" src="https://user-images.githubusercontent.com/49708438/235605666-35d0fc49-3f3a-4cc1-a435-b323bd5e5216.png">
-</div>
+| Logos 1 | Logos 2  |
+|---------|---------|
+| ![demo1](https://user-images.githubusercontent.com/49708438/235604942-bb731508-ca3e-4d6f-b7f6-a976f9dbe93f.png) | ![demo2](https://user-images.githubusercontent.com/49708438/235605666-35d0fc49-3f3a-4cc1-a435-b323bd5e5216.png) |
+
+
 
 
 ## Installation
@@ -67,7 +68,8 @@ class MyApp extends StatelessWidget {
           ...AnyLogo.uefa.values.map((e) => e.image()).toList(),
           ...AnyLogo.daily.values.map((e) => e.image()).toList(),
           ...AnyLogo.tech.values.map((e) => e.image()).toList(),
-          ...AnyLogo.nfl.values.map((e) => e.image()).toList(),
+          ...AnyLogo.nfl.values.map((e) => e.image()).toList(), 
+          ...AnyLogo.media.values.map((e) => e.image()).toList(),
         ],
       ),
     );
