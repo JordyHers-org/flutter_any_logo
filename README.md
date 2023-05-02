@@ -18,9 +18,11 @@ l for projects that require industry-related images.
 
 ## Screenshots
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/49708438/234598133-8159f94e-63ac-4dfc-acd8-bb5c7901c0da.gif" alt="Demo"/>
-</p>
+| Logos 1 | Logos 2  |
+|---------|---------|
+| ![demo1](https://user-images.githubusercontent.com/49708438/235604942-bb731508-ca3e-4d6f-b7f6-a976f9dbe93f.png) | ![demo2](https://user-images.githubusercontent.com/49708438/235605666-35d0fc49-3f3a-4cc1-a435-b323bd5e5216.png) |
+
+
 
 
 ## Installation
