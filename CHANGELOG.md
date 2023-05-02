@@ -9,5 +9,11 @@
 
 * Ios crash bug 
 
+## 1.0.2
+
+* Updated Readme file
+* Minor bug fixes
+* Address issue with Android Gradle Versions
+
 
 
