@@ -76,14 +76,15 @@ class MyApp extends StatelessWidget {
 if you want to have access to a type a static method is available
 
 ```dart
+
 // Single Assets Image NBA
- AnyLogo.nba.atlantaHawks
+ AnyLogo.daily.mcDonalds
 
 //Access all values in a type
  AnyLogo.nba.values
 
-//Access the image
-AnyLogo.nba.image()
+//Access the Image
+AnyLogo.uefa.manchesterUnited.image()
 
 // Key? key,   
 // AssetBundle? bundle,  
@@ -109,13 +110,44 @@ AnyLogo.nba.image()
 // int? cacheWidth,  
 // int? cacheHeight,
 // All the variables are sill available
-AnyLogo.nba.image(height: 30);
+AnyLogo.nba.image(height: 30, fit: BoxFit.contain);
 
 
 //You can still pass just the asset image without calling [.image()]
 Image(image: AssetImage(AnyLogo.nba.atlanta.path)),
 
+// UEFA section contains football teams ⚽️
+AnyLogo.uefa.acMilan
+AnyLogo.uefa.barcelona
 
+// Daily section contains everyday brands food related etc.. 🍟
+AnyLogo.daily.gillette
+AnyLogo.daily.nutella
+AnyLogo.daily.kellogs
+
+// NFL section contains nfl teams 🏈
+AnyLogo.nfl.nflArizonaCardinals
+AnyLogo.nfl.nflBuffaloBills
+
+// Fashion section contains clothing / perfume / luxury / watches ⌚️
+AnyLogo.fashion.louisVuitton
+AnyLogo.fashion.gucci
+AnyLogo.fashion.prada
+
+// NBA section contains all nba teams 🏀
+AnyLogo.nba.miamiHeat
+AnyLogo.nba.losAngelesClippers
+AnyLogo.nba.goldenStateWarriors
+
+// Tech contains all brands and tech companies  🕹️
+AnyLogo.tech.playstation
+AnyLogo.tech.siemens
+AnyLogo.tech.visa
+
+// Media section contains social media and area like 🛜
+AnyLogo.media.instagram
+AnyLogo.media.tiktok
+AnyLogo.media.facebook
 
 ```
 
