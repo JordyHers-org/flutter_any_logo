@@ -14,57 +14,50 @@ import 'helpers/helpers.dart';
 /// All File uploaded should have the extension [.png] if not error should be
 /// thrown.
 void main() {
-  test(' Basketball : Loaded image sizes should be less than 400KB', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.nba;
-    AnyLogoTest.testSize(directoryPath);
-  });
+  group('ALL Loaded image sizes should be less than 400KB', () {
+    test(' NBA ', () {
+      const String directoryPath = Const.nba;
+      AnyLogoTest.testSize(directoryPath);
+    });
 
-  test(' Media : Loaded image sizes should be less than 400KB', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.media;
-    AnyLogoTest.testSize(directoryPath);
-  });
+    test(' Media ', () {
+      const String directoryPath = Const.media;
+      AnyLogoTest.testSize(directoryPath);
+    });
 
-  test(' Tech : Loaded image sizes should be less than 400KB', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.tech;
-    AnyLogoTest.testSize(directoryPath);
-  });
+    test(' Tech ', () {
+      const String directoryPath = Const.tech;
+      AnyLogoTest.testSize(directoryPath);
+    });
 
-  test(' Daily : Loaded image sizes should be less than 400KB', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.daily;
-    AnyLogoTest.testSize(directoryPath);
-  });
+    test(' Daily ', () {
+      const String directoryPath = Const.daily;
+      AnyLogoTest.testSize(directoryPath);
+    });
 
-  test(' Football : Loaded image sizes should be less than 400KB', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.football;
-    AnyLogoTest.testSize(directoryPath);
-  });
+    test(' UEFA ', () {
+      const String directoryPath = Const.football;
+      AnyLogoTest.testSize(directoryPath);
+    });
 
-  test(' Fashion : Loaded image sizes should be less than 400KB', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.fashion;
-    AnyLogoTest.testSize(directoryPath);
-  });
+    test(' Fashion ', () {
+      const String directoryPath = Const.fashion;
+      AnyLogoTest.testSize(directoryPath);
+    });
 
-  test(' Cricket : Loaded image sizes should be less than 400KB', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.cricket;
-    AnyLogoTest.testSize(directoryPath);
-  });
+    test(' Cricket ', () {
+      const String directoryPath = Const.cricket;
+      AnyLogoTest.testSize(directoryPath);
+    });
 
-  test(' NFL : Loaded image sizes should be less than 400KB', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.nfl;
-    AnyLogoTest.testSize(directoryPath);
-  });
+    test(' NFL ', () {
+      const String directoryPath = Const.nfl;
+      AnyLogoTest.testSize(directoryPath);
+    });
 
-  test(' Automobile : Loaded image sizes should be less than 400KB', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.auto;
-    AnyLogoTest.testSize(directoryPath);
+    test(' Automobile ', () {
+      const String directoryPath = Const.auto;
+      AnyLogoTest.testSize(directoryPath);
+    });
   });
 }

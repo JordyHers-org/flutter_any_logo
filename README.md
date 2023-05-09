@@ -31,7 +31,7 @@ Add `flutter_any_logo` as a dependency in your `pubspec.yaml` file.
 
 ```
 dependencies:
-  flutter_any_logo: ^1.0.0
+  flutter_any_logo: ^1.0.3
 ```
 
 Then, run `flutter pub get` in your terminal to install the plugin.
@@ -116,7 +116,7 @@ AnyLogo.uefa.manchesterUnited.image()
 // int? cacheWidth,  
 // int? cacheHeight,
 // All the variables are sill available
-AnyLogo.nba.atlantaHawks.image(height: 30, fit: BoxFit.contain);
+AnyLogo.nba.atlantaHawks.image(height: 30, width: 25, fit: BoxFit.contain);
 
 
 //You can still pass just the asset image without calling [.image()]
