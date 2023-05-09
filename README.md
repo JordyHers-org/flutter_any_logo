@@ -70,6 +70,7 @@ class MyApp extends StatelessWidget {
           ...AnyLogo.tech.values.map((e) => e.image()).toList(),
           ...AnyLogo.nfl.values.map((e) => e.image()).toList(), 
           ...AnyLogo.media.values.map((e) => e.image()).toList(),
+          ...AnyLogo.auto.values.map((e) => e.image()).toList(),
         ],
       ),
     );
@@ -115,7 +116,7 @@ AnyLogo.uefa.manchesterUnited.image()
 // int? cacheWidth,  
 // int? cacheHeight,
 // All the variables are sill available
-AnyLogo.nba.image(height: 30, fit: BoxFit.contain);
+AnyLogo.nba.atlantaHawks.image(height: 30, fit: BoxFit.contain);
 
 
 //You can still pass just the asset image without calling [.image()]
@@ -125,10 +126,12 @@ Image(image: AssetImage(AnyLogo.nba.atlanta.path)),
 AnyLogo.uefa.acMilan
 AnyLogo.uefa.barcelona
 
-// Daily section contains everyday brands food related etc.. 🍟
+// Daily section contains everyday brands food / travel / plane / agencies related etc.. 🍟
+// Basically if you don't find a brand it could be in daily.
 AnyLogo.daily.gillette
 AnyLogo.daily.nutella
 AnyLogo.daily.kellogs
+AnyLogo.daily.lufthansa
 
 // NFL section contains nfl teams 🏈
 AnyLogo.nfl.nflArizonaCardinals
@@ -158,6 +161,12 @@ AnyLogo.media.facebook
 AnyLogo.cricket.cscs
 AnyLogo.cricket.gurajatLions
 AnyLogo.cricket.mumbaiIndians
+
+
+// Car section contains car brands and makes 🏎️
+AnyLogo.auto.bugatti
+AnyLogo.auto.bmw
+AnyLogo.auto.mercedesBenz
 
 ```
 

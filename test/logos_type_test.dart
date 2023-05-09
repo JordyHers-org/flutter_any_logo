@@ -45,4 +45,22 @@ void main() {
     const String directoryPath = Const.fashion;
     AnyLogoTest.testType(directoryPath);
   });
+
+  test(' NFL : Verify that all logos are PNG files', () {
+    // Define the path to the local directory folder containing images
+    const String directoryPath = Const.nfl;
+    AnyLogoTest.testType(directoryPath);
+  });
+
+  test(' Automobile : Verify that all logos are PNG files', () {
+    // Define the path to the local directory folder containing images
+    const String directoryPath = Const.auto;
+    AnyLogoTest.testType(directoryPath);
+  });
+
+  test(' Cricket : Verify that all logos are PNG files', () {
+    // Define the path to the local directory folder containing images
+    const String directoryPath = Const.cricket;
+    AnyLogoTest.testType(directoryPath);
+  });
 }

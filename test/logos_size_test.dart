@@ -49,4 +49,22 @@ void main() {
     const String directoryPath = Const.fashion;
     AnyLogoTest.testSize(directoryPath);
   });
+
+  test(' Cricket : Loaded image sizes should be less than 400KB', () {
+    // Define the path to the local directory folder containing images
+    const String directoryPath = Const.cricket;
+    AnyLogoTest.testSize(directoryPath);
+  });
+
+  test(' NFL : Loaded image sizes should be less than 400KB', () {
+    // Define the path to the local directory folder containing images
+    const String directoryPath = Const.nfl;
+    AnyLogoTest.testSize(directoryPath);
+  });
+
+  test(' Automobile : Loaded image sizes should be less than 400KB', () {
+    // Define the path to the local directory folder containing images
+    const String directoryPath = Const.auto;
+    AnyLogoTest.testSize(directoryPath);
+  });
 }

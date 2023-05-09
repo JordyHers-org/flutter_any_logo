@@ -12,6 +12,7 @@ class AnyLogo {
   static const $AssetsTechGen tech = $AssetsTechGen();
   static const $AssetsNflGen nfl = $AssetsNflGen();
   static const $AssetsCricketGen cricket = $AssetsCricketGen();
+  static const $AssetsAutoGen auto = $AssetsAutoGen();
 
   static List<dynamic> values = <Widget>[
     ...AnyLogo.cricket.values.map((AssetGenImage e) => e.image()).toList(),
@@ -22,5 +23,6 @@ class AnyLogo {
     ...AnyLogo.daily.values.map((AssetGenImage e) => e.image()).toList(),
     ...AnyLogo.tech.values.map((AssetGenImage e) => e.image()).toList(),
     ...AnyLogo.media.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.auto.values.map((AssetGenImage e) => e.image()).toList(),
   ];
 }

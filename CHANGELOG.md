@@ -9,5 +9,18 @@
 
 * Ios crash bug 
 
+## 1.0.2
 
+* Updated Readme file
+* Minor bug fixes
+* Address issue with Android Gradle Versions
+
+
+## 1.0.3
+
+* Add automobile Logos
+* Improve tests
+* Fix minor bug and enhancements
+* Add more daily logos
+* Add more Tech logos
 
