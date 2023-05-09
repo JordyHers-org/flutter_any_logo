@@ -9,6 +9,173 @@
 
 import 'package:flutter/widgets.dart';
 
+class $AssetsAutoGen {
+  const $AssetsAutoGen();
+
+  /// File path: packages/flutter_any_logo/assets/auto/bmw.png
+  AssetGenImage get bmw => const AssetGenImage('packages/flutter_any_logo/assets/auto/bmw.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/bugatti.png
+  AssetGenImage get bugatti => const AssetGenImage('packages/flutter_any_logo/assets/auto/bugatti.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/chevrolet.png
+  AssetGenImage get chevrolet =>
+      const AssetGenImage('packages/flutter_any_logo/assets/auto/chevrolet.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/chrysler.png
+  AssetGenImage get chrysler => const AssetGenImage('packages/flutter_any_logo/assets/auto/chrysler.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/daewoo.png
+  AssetGenImage get daewoo => const AssetGenImage('packages/flutter_any_logo/assets/auto/daewoo.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/dodge.png
+  AssetGenImage get dodge => const AssetGenImage('packages/flutter_any_logo/assets/auto/dodge.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/ferrari.png
+  AssetGenImage get ferrari => const AssetGenImage('packages/flutter_any_logo/assets/auto/ferrari.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/fiat.png
+  AssetGenImage get fiat => const AssetGenImage('packages/flutter_any_logo/assets/auto/fiat.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/ford.png
+  AssetGenImage get ford => const AssetGenImage('packages/flutter_any_logo/assets/auto/ford.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/honda.png
+  AssetGenImage get honda => const AssetGenImage('packages/flutter_any_logo/assets/auto/honda.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/hyundai.png
+  AssetGenImage get hyundai => const AssetGenImage('packages/flutter_any_logo/assets/auto/hyundai.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/infiniti.png
+  AssetGenImage get infiniti => const AssetGenImage('packages/flutter_any_logo/assets/auto/infiniti.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/iveco.png
+  AssetGenImage get iveco => const AssetGenImage('packages/flutter_any_logo/assets/auto/iveco.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/jeep.png
+  AssetGenImage get jeep => const AssetGenImage('packages/flutter_any_logo/assets/auto/jeep.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/kia.png
+  AssetGenImage get kia => const AssetGenImage('packages/flutter_any_logo/assets/auto/kia.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/lamborghini.png
+  AssetGenImage get lamborghini =>
+      const AssetGenImage('packages/flutter_any_logo/assets/auto/lamborghini.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/landRover.png
+  AssetGenImage get landRover =>
+      const AssetGenImage('packages/flutter_any_logo/assets/auto/landRover.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/lexus.png
+  AssetGenImage get lexus => const AssetGenImage('packages/flutter_any_logo/assets/auto/lexus.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/luxgen.png
+  AssetGenImage get luxgen => const AssetGenImage('packages/flutter_any_logo/assets/auto/luxgen.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/maserati.png
+  AssetGenImage get maserati => const AssetGenImage('packages/flutter_any_logo/assets/auto/maserati.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/maybach.png
+  AssetGenImage get maybach => const AssetGenImage('packages/flutter_any_logo/assets/auto/maybach.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/mazda.png
+  AssetGenImage get mazda => const AssetGenImage('packages/flutter_any_logo/assets/auto/mazda.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/mclaren.png
+  AssetGenImage get mclaren => const AssetGenImage('packages/flutter_any_logo/assets/auto/mclaren.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/mercedesBenz.png
+  AssetGenImage get mercedesBenz =>
+      const AssetGenImage('packages/flutter_any_logo/assets/auto/mercedesBenz.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/mini.png
+  AssetGenImage get mini => const AssetGenImage('packages/flutter_any_logo/assets/auto/mini.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/mitsubishi.png
+  AssetGenImage get mitsubishi =>
+      const AssetGenImage('packages/flutter_any_logo/assets/auto/mitsubishi.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/nissan.png
+  AssetGenImage get nissan => const AssetGenImage('packages/flutter_any_logo/assets/auto/nissan.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/opel.png
+  AssetGenImage get opel => const AssetGenImage('packages/flutter_any_logo/assets/auto/opel.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/peugeot.png
+  AssetGenImage get peugeot => const AssetGenImage('packages/flutter_any_logo/assets/auto/peugeot.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/porsche.png
+  AssetGenImage get porsche => const AssetGenImage('packages/flutter_any_logo/assets/auto/porsche.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/rollsRoyce.png
+  AssetGenImage get rollsRoyce =>
+      const AssetGenImage('packages/flutter_any_logo/assets/auto/rollsRoyce.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/seat.png
+  AssetGenImage get seat => const AssetGenImage('packages/flutter_any_logo/assets/auto/seat.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/subaru.png
+  AssetGenImage get subaru => const AssetGenImage('packages/flutter_any_logo/assets/auto/subaru.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/suzuki.png
+  AssetGenImage get suzuki => const AssetGenImage('packages/flutter_any_logo/assets/auto/suzuki.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/tata.png
+  AssetGenImage get tata => const AssetGenImage('packages/flutter_any_logo/assets/auto/tata.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/tesla.png
+  AssetGenImage get tesla => const AssetGenImage('packages/flutter_any_logo/assets/auto/tesla.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/toyota.png
+  AssetGenImage get toyota => const AssetGenImage('packages/flutter_any_logo/assets/auto/toyota.png');
+
+  /// File path: packages/flutter_any_logo/assets/auto/volkswagen.png
+  AssetGenImage get volkswagen =>
+      const AssetGenImage('packages/flutter_any_logo/assets/auto/volkswagen.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+        bmw,
+        bugatti,
+        chevrolet,
+        chrysler,
+        daewoo,
+        dodge,
+        ferrari,
+        fiat,
+        ford,
+        honda,
+        hyundai,
+        infiniti,
+        iveco,
+        jeep,
+        kia,
+        lamborghini,
+        landRover,
+        lexus,
+        luxgen,
+        maserati,
+        maybach,
+        mazda,
+        mclaren,
+        mercedesBenz,
+        mini,
+        mitsubishi,
+        nissan,
+        opel,
+        peugeot,
+        porsche,
+        rollsRoyce,
+        seat,
+        subaru,
+        suzuki,
+        tata,
+        tesla,
+        toyota,
+        volkswagen
+      ];
+}
+
 class $AssetsCricketGen {
   const $AssetsCricketGen();
 
@@ -83,6 +250,12 @@ class $AssetsCricketGen {
 class $AssetsDailyGen {
   const $AssetsDailyGen();
 
+  /// File path: packages/flutter_any_logo/assets/daily/bosch.png
+  AssetGenImage get bosch => const AssetGenImage('packages/flutter_any_logo/assets/daily/bosch.png');
+
+  /// File path: packages/flutter_any_logo/assets/daily/brita.png
+  AssetGenImage get brita => const AssetGenImage('packages/flutter_any_logo/assets/daily/brita.png');
+
   /// File path: packages/flutter_any_logo/assets/daily/chupachups.png
   AssetGenImage get chupachups =>
       const AssetGenImage('packages/flutter_any_logo/assets/daily/chupachups.png');
@@ -98,8 +271,19 @@ class $AssetsDailyGen {
   /// File path: packages/flutter_any_logo/assets/daily/gilette.png
   AssetGenImage get gilette => const AssetGenImage('packages/flutter_any_logo/assets/daily/gilette.png');
 
+  /// File path: packages/flutter_any_logo/assets/daily/heineken.png
+  AssetGenImage get heineken =>
+      const AssetGenImage('packages/flutter_any_logo/assets/daily/heineken.png');
+
   /// File path: packages/flutter_any_logo/assets/daily/kfc.png
   AssetGenImage get kfc => const AssetGenImage('packages/flutter_any_logo/assets/daily/kfc.png');
+
+  /// File path: packages/flutter_any_logo/assets/daily/lufthansa.png
+  AssetGenImage get lufthansa =>
+      const AssetGenImage('packages/flutter_any_logo/assets/daily/lufthansa.png');
+
+  /// File path: packages/flutter_any_logo/assets/daily/mcCain.png
+  AssetGenImage get mcCain => const AssetGenImage('packages/flutter_any_logo/assets/daily/mcCain.png');
 
   /// File path: packages/flutter_any_logo/assets/daily/mcDonals.png
   AssetGenImage get mcDonals =>
@@ -116,38 +300,40 @@ class $AssetsDailyGen {
   AssetGenImage get snickers =>
       const AssetGenImage('packages/flutter_any_logo/assets/daily/snickers.png');
 
+  /// File path: packages/flutter_any_logo/assets/daily/sodexo.png
+  AssetGenImage get sodexo => const AssetGenImage('packages/flutter_any_logo/assets/daily/sodexo.png');
+
   /// File path: packages/flutter_any_logo/assets/daily/starbucks.png
   AssetGenImage get starbucks =>
       const AssetGenImage('packages/flutter_any_logo/assets/daily/starbucks.png');
+
+  /// File path: packages/flutter_any_logo/assets/daily/walmart.png
+  AssetGenImage get walmart => const AssetGenImage('packages/flutter_any_logo/assets/daily/walmart.png');
 
   /// File path: packages/flutter_any_logo/assets/daily/watson.png
   AssetGenImage get watson => const AssetGenImage('packages/flutter_any_logo/assets/daily/watson.png');
 
   /// List of all assets
   List<AssetGenImage> get values => [
+        bosch,
+        brita,
         chupachups,
         cocaCola,
         dominosPizza,
         gilette,
+        heineken,
         kfc,
+        lufthansa,
+        mcCain,
         mcDonals,
         pepsi,
         pizzahut,
         snickers,
+        sodexo,
         starbucks,
+        walmart,
         watson
       ];
-}
-
-class $AssetsEuroleagueGen {
-  const $AssetsEuroleagueGen();
-
-  /// File path: packages/flutter_any_logo/assets/euroleague/realMadrid.png
-  AssetGenImage get realMadrid =>
-      const AssetGenImage('packages/flutter_any_logo/assets/euroleague/realMadrid.png');
-
-  /// List of all assets
-  List<AssetGenImage> get values => [realMadrid];
 }
 
 class $AssetsFashionGen {
@@ -1149,6 +1335,10 @@ class $AssetsTechGen {
   AssetGenImage get microsoft =>
       const AssetGenImage('packages/flutter_any_logo/assets/tech/microsoft.png');
 
+  /// File path: packages/flutter_any_logo/assets/tech/panasonic.png
+  AssetGenImage get panasonic =>
+      const AssetGenImage('packages/flutter_any_logo/assets/tech/panasonic.png');
+
   /// File path: packages/flutter_any_logo/assets/tech/paypal.png
   AssetGenImage get paypal => const AssetGenImage('packages/flutter_any_logo/assets/tech/paypal.png');
 
@@ -1202,6 +1392,7 @@ class $AssetsTechGen {
         masterCard,
         meta,
         microsoft,
+        panasonic,
         paypal,
         playstation,
         salesforce,
@@ -1220,9 +1411,9 @@ class $AssetsTechGen {
 class Assets {
   Assets._();
 
+  static const $AssetsAutoGen auto = $AssetsAutoGen();
   static const $AssetsCricketGen cricket = $AssetsCricketGen();
   static const $AssetsDailyGen daily = $AssetsDailyGen();
-  static const $AssetsEuroleagueGen euroleague = $AssetsEuroleagueGen();
   static const $AssetsFashionGen fashion = $AssetsFashionGen();
   static const $AssetsFootballGen football = $AssetsFootballGen();
   static const $AssetsMediaGen media = $AssetsMediaGen();
