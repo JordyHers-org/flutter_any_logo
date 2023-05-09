@@ -24,12 +24,9 @@ environment:
 
 #screenshots
 screenshots:
-  - description: ' All logos intro '
-    path: images/logos.jpeg
-  - description: 'First part of demo'
-    path: images/demo1.png
-  - description: 'Last part of demo'
-    path: images/demo2.png
+  - description: ' Any Logo '
+    path: images/anyLogo.png
+
 
 
 # dependencies

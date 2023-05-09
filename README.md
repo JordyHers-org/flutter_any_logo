@@ -1,9 +1,17 @@
-# Flutter Any Logo 💯 
 
 
+
+
+<p align="center">
+  <img align="center"  src="https://github.com/JordyHers/flutter_any_logo/assets/49708438/59453e31-ce89-4e9a-878c-208715e52ed0">
+ </p>
+  
+  
+ # Flutter Any Logo 💯
 [![Deploy Dev](https://github.com/JordyHers/flutter_any_logo/actions/workflows/deploy_dev.yml/badge.svg?branch=main)](https://github.com/JordyHers/flutter_any_logo/actions/workflows/deploy_dev.yml)
 
-## Our aim is to implement 1000+ logos but keep the package as light as possible. 🪽
+### Our aim is to implement 1000+ logos but keep the package as light as possible. 🪽
+
 
 ![logos](https://user-images.githubusercontent.com/49708438/235303282-3d0c03b9-39bc-475e-be86-33ef99305889.jpeg)
 
@@ -31,7 +39,7 @@ Add `flutter_any_logo` as a dependency in your `pubspec.yaml` file.
 
 ```
 dependencies:
-  flutter_any_logo: ^1.0.0
+  flutter_any_logo: ^1.0.3
 ```
 
 Then, run `flutter pub get` in your terminal to install the plugin.
@@ -116,7 +124,7 @@ AnyLogo.uefa.manchesterUnited.image()
 // int? cacheWidth,  
 // int? cacheHeight,
 // All the variables are sill available
-AnyLogo.nba.atlantaHawks.image(height: 30, fit: BoxFit.contain);
+AnyLogo.nba.atlantaHawks.image(height: 30, width: 25, fit: BoxFit.contain);
 
 
 //You can still pass just the asset image without calling [.image()]
@@ -251,3 +259,6 @@ Make sure you checkout and create a branch following this format:
 ## License
 
 `flutter_any_logo` is released under the [MIT License](https://github.com/example/flutter_any_logo/blob/main/LICENSE).
+
+
+
