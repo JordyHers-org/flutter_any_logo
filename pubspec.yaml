@@ -24,7 +24,7 @@ environment:
 
 #screenshots
 screenshots:
-  - description: ' Any Logo '
+  - description: 'AnyLogo template'
     path: images/anyLogo.png
 
 
