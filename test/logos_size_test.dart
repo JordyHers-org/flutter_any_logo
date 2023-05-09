@@ -3,9 +3,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'helpers/constants.dart';
 import 'helpers/helpers.dart';
 
-// By convention all png files should not exceed 400 kb, This
-// will allow us to keep the package light enough to be easily
-// implemented in any project.
+/// By convention all png files should not exceed 400 kb, This
+/// will allow us to keep the package light enough to be easily
+/// implemented in any project.
 
 ///  If you PLAN TO CREATE A PULL REQUEST MAKE SURE TO run all the tests
 ///  And confirm that the file you just uploaded is surely less than 400KB.
