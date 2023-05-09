@@ -78,4 +78,15 @@ class PumpWidget {
           }),
     ),
   );
+
+  // Launch all logos in Automobile folder
+  static Widget auto = MaterialApp(
+    home: Scaffold(
+      body: ListView.builder(
+          itemCount: AnyLogo.auto.values.length,
+          itemBuilder: (BuildContext context, int index) {
+            return AnyLogo.auto.values[index].image();
+          }),
+    ),
+  );
 }
