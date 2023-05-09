@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/src/model/class.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -10,9 +9,7 @@ void main() {
   group('Nba List Tests', () {
     testWidgets('Verify All Logos Should load', (WidgetTester tester) async {
       await tester.pumpWidget(PumpWidget.nba);
-      // Verify that all logo launch
-      final int number = AnyLogoTest.numberOfLogos(Const.nba);
-      expect(find.byType(Image, skipOffstage: false), findsNWidgets(number));
+      AnyLogoTest.testLogosRendered(Const.nba);
     });
 
     testWidgets('Verify no exception is thrown', (WidgetTester tester) async {

@@ -10,7 +10,7 @@ class AnyLogoTest {
   // the directory are properly loaded. if the folder
   // contains 30 files and 28 are loaded and error has
   // occurred somewhere.
-  static int numberOfLogos(String path) {
+  static void testLogosRendered(String path) {
     final Directory myDirectory = Directory(path);
     final List<FileSystemEntity> myFiles = myDirectory.listSync();
 
@@ -18,8 +18,7 @@ class AnyLogoTest {
     if (kDebugMode) {
       print('Number of files: $fileCount');
     }
-
-    return fileCount;
+    expect(find.byType(Image, skipOffstage: false), findsNWidgets(fileCount));
   }
 
   static void testSize(String directoryPath) {
@@ -62,18 +61,14 @@ class AnyLogoTest {
   static void testException(WidgetTester tester) async {
     // Verify that no error is thrown
     expect(tester.takeException(), isNull);
-
     // Scroll up
     await tester.fling(find.byType(ListView), const Offset(0, -700), 500);
     await tester.pumpAndSettle();
-
     // Verify that no error is thrown
     expect(tester.takeException(), isNull);
-
     // Scroll up
     await tester.fling(find.byType(ListView), const Offset(0, -700), 500);
     await tester.pumpAndSettle();
-
     // Verify that no error is thrown
     expect(tester.takeException(), isNull);
   }
@@ -86,15 +81,12 @@ class AnyLogoTest {
     // Scroll up
     await tester.fling(find.byType(ListView), const Offset(0, -102000), 3000);
     await tester.pumpAndSettle();
-
     final Finder listViewFinder = find.byType(ListView);
     expect(listViewFinder, findsOneWidget);
-
     await tester.pumpAndSettle();
 
     // Verify that the last item displayed after scrolling up is the same as t
     // he item at the last index
-
     final Finder lastItemFinder = find.byType(Image, skipOffstage: false).last;
     final ImageProvider<Object> lastItem =
         tester.widget<Image>(lastItemFinder).image;
