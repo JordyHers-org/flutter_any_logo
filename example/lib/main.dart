@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
           child: GridView.count(
             crossAxisCount: 5,
             children: [
-              ...AnyLogo.auto.values
+              ...AnyLogo.daily.values
                   .map((AssetGenImage e) => e.image())
                   .toList(),
             ],

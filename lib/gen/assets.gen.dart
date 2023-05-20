@@ -268,6 +268,12 @@ class $AssetsDailyGen {
   AssetGenImage get dominosPizza =>
       const AssetGenImage('packages/flutter_any_logo/assets/daily/dominosPizza.png');
 
+  /// File path: packages/flutter_any_logo/assets/daily/durex.png
+  AssetGenImage get durex => const AssetGenImage('packages/flutter_any_logo/assets/daily/durex.png');
+
+  /// File path: packages/flutter_any_logo/assets/daily/fedEx.png
+  AssetGenImage get fedEx => const AssetGenImage('packages/flutter_any_logo/assets/daily/fedEx.png');
+
   /// File path: packages/flutter_any_logo/assets/daily/gilette.png
   AssetGenImage get gilette => const AssetGenImage('packages/flutter_any_logo/assets/daily/gilette.png');
 
@@ -278,9 +284,15 @@ class $AssetsDailyGen {
   /// File path: packages/flutter_any_logo/assets/daily/kfc.png
   AssetGenImage get kfc => const AssetGenImage('packages/flutter_any_logo/assets/daily/kfc.png');
 
+  /// File path: packages/flutter_any_logo/assets/daily/lipton.png
+  AssetGenImage get lipton => const AssetGenImage('packages/flutter_any_logo/assets/daily/lipton.png');
+
   /// File path: packages/flutter_any_logo/assets/daily/lufthansa.png
   AssetGenImage get lufthansa =>
       const AssetGenImage('packages/flutter_any_logo/assets/daily/lufthansa.png');
+
+  /// File path: packages/flutter_any_logo/assets/daily/magnum.png
+  AssetGenImage get magnum => const AssetGenImage('packages/flutter_any_logo/assets/daily/magnum.png');
 
   /// File path: packages/flutter_any_logo/assets/daily/mcCain.png
   AssetGenImage get mcCain => const AssetGenImage('packages/flutter_any_logo/assets/daily/mcCain.png');
@@ -289,12 +301,24 @@ class $AssetsDailyGen {
   AssetGenImage get mcDonals =>
       const AssetGenImage('packages/flutter_any_logo/assets/daily/mcDonals.png');
 
+  /// File path: packages/flutter_any_logo/assets/daily/ola.png
+  AssetGenImage get ola => const AssetGenImage('packages/flutter_any_logo/assets/daily/ola.png');
+
+  /// File path: packages/flutter_any_logo/assets/daily/omo.png
+  AssetGenImage get omo => const AssetGenImage('packages/flutter_any_logo/assets/daily/omo.png');
+
   /// File path: packages/flutter_any_logo/assets/daily/pepsi.png
   AssetGenImage get pepsi => const AssetGenImage('packages/flutter_any_logo/assets/daily/pepsi.png');
 
   /// File path: packages/flutter_any_logo/assets/daily/pizzahut.png
   AssetGenImage get pizzahut =>
       const AssetGenImage('packages/flutter_any_logo/assets/daily/pizzahut.png');
+
+  /// File path: packages/flutter_any_logo/assets/daily/rexona.png
+  AssetGenImage get rexona => const AssetGenImage('packages/flutter_any_logo/assets/daily/rexona.png');
+
+  /// File path: packages/flutter_any_logo/assets/daily/signal.png
+  AssetGenImage get signal => const AssetGenImage('packages/flutter_any_logo/assets/daily/signal.png');
 
   /// File path: packages/flutter_any_logo/assets/daily/snickers.png
   AssetGenImage get snickers =>
@@ -320,14 +344,22 @@ class $AssetsDailyGen {
         chupachups,
         cocaCola,
         dominosPizza,
+        durex,
+        fedEx,
         gilette,
         heineken,
         kfc,
+        lipton,
         lufthansa,
+        magnum,
         mcCain,
         mcDonals,
+        ola,
+        omo,
         pepsi,
         pizzahut,
+        rexona,
+        signal,
         snickers,
         sodexo,
         starbucks,
@@ -828,6 +860,9 @@ class $AssetsMediaGen {
   AssetGenImage get facetime =>
       const AssetGenImage('packages/flutter_any_logo/assets/media/facetime.png');
 
+  /// File path: packages/flutter_any_logo/assets/media/gmail.png
+  AssetGenImage get gmail => const AssetGenImage('packages/flutter_any_logo/assets/media/gmail.png');
+
   /// File path: packages/flutter_any_logo/assets/media/googleDuo.png
   AssetGenImage get googleDuo =>
       const AssetGenImage('packages/flutter_any_logo/assets/media/googleDuo.png');
@@ -922,6 +957,9 @@ class $AssetsMediaGen {
   AssetGenImage get whatsapp =>
       const AssetGenImage('packages/flutter_any_logo/assets/media/whatsapp.png');
 
+  /// File path: packages/flutter_any_logo/assets/media/yahoo.png
+  AssetGenImage get yahoo => const AssetGenImage('packages/flutter_any_logo/assets/media/yahoo.png');
+
   /// File path: packages/flutter_any_logo/assets/media/youtube.png
   AssetGenImage get youtube => const AssetGenImage('packages/flutter_any_logo/assets/media/youtube.png');
 
@@ -934,6 +972,7 @@ class $AssetsMediaGen {
         dropbox,
         facebook,
         facetime,
+        gmail,
         googleDuo,
         googleMeet,
         instagram,
@@ -962,6 +1001,7 @@ class $AssetsMediaGen {
         wechat,
         weibo,
         whatsapp,
+        yahoo,
         youtube,
         zoom
       ];
@@ -1300,6 +1340,12 @@ class $AssetsTechGen {
   /// File path: packages/flutter_any_logo/assets/tech/adobe.png
   AssetGenImage get adobe => const AssetGenImage('packages/flutter_any_logo/assets/tech/adobe.png');
 
+  /// File path: packages/flutter_any_logo/assets/tech/android.png
+  AssetGenImage get android => const AssetGenImage('packages/flutter_any_logo/assets/tech/android.png');
+
+  /// File path: packages/flutter_any_logo/assets/tech/appStore.png
+  AssetGenImage get appStore => const AssetGenImage('packages/flutter_any_logo/assets/tech/appStore.png');
+
   /// File path: packages/flutter_any_logo/assets/tech/apple.png
   AssetGenImage get apple => const AssetGenImage('packages/flutter_any_logo/assets/tech/apple.png');
 
@@ -1315,6 +1361,10 @@ class $AssetsTechGen {
   /// File path: packages/flutter_any_logo/assets/tech/intel.png
   AssetGenImage get intel => const AssetGenImage('packages/flutter_any_logo/assets/tech/intel.png');
 
+  /// File path: packages/flutter_any_logo/assets/tech/jordyHers.png
+  AssetGenImage get jordyHers =>
+      const AssetGenImage('packages/flutter_any_logo/assets/tech/jordyHers.png');
+
   /// File path: packages/flutter_any_logo/assets/tech/kodak.png
   AssetGenImage get kodak => const AssetGenImage('packages/flutter_any_logo/assets/tech/kodak.png');
 
@@ -1323,6 +1373,9 @@ class $AssetsTechGen {
 
   /// File path: packages/flutter_any_logo/assets/tech/lenovo.png
   AssetGenImage get lenovo => const AssetGenImage('packages/flutter_any_logo/assets/tech/lenovo.png');
+
+  /// File path: packages/flutter_any_logo/assets/tech/lg.png
+  AssetGenImage get lg => const AssetGenImage('packages/flutter_any_logo/assets/tech/lg.png');
 
   /// File path: packages/flutter_any_logo/assets/tech/masterCard.png
   AssetGenImage get masterCard =>
@@ -1381,14 +1434,18 @@ class $AssetsTechGen {
   List<AssetGenImage> get values => [
         acer,
         adobe,
+        android,
+        appStore,
         apple,
         google,
         hp,
         ibm,
         intel,
+        jordyHers,
         kodak,
         laravel,
         lenovo,
+        lg,
         masterCard,
         meta,
         microsoft,
