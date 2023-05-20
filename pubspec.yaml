@@ -23,9 +23,9 @@ environment:
   flutter: ">=2.5.0"
 
 #screenshots
-screenshots:
-  - description: 'AnyLogo template'
-    path: images/anyLogo.png
+#screenshots:
+#  - description: 'AnyLogo template'
+#    path: images/anyLogo.png
 
 
 
