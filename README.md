@@ -52,10 +52,28 @@ Import the `flutter_any_logo` package in your Dart code:
 import 'package:flutter_any_logo/flutter_any_logo.dart';
 ```
 
-You can now use the provided `AnyLogo` widget to display the logos in your app. For example, to display the Instagram logo:
+You can now use the provided `AnyLogo` widget to display the logos in your app. For example, to display the Google logo:
 
 ```dart
-AnyLogo.media.instagram
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
+
+  final String title;
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(body: AnyLogo.tech.google.image()
+          // This trailing comma makes auto-formatting nicer for build methods.
+          ),
+    );
+  }
+}
 ```
 
 #### More examples
@@ -91,7 +109,7 @@ if you want to have access to a type a static method is available
 
 ```dart
 
-// Single Assets Image NBA
+// Single Assets
  AnyLogo.daily.mcDonalds
 
 //Access all values in a type
