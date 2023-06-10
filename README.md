@@ -109,7 +109,7 @@ if you want to have access to a type a static method is available
 
 ```dart
 
-// Single Assets Image NBA
+// Single Assets
  AnyLogo.daily.mcDonalds
 
 //Access all values in a type
