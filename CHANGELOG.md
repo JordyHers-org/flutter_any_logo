@@ -24,3 +24,7 @@
 * Add more daily logos
 * Add more Tech logos
 
+## 1.0.4
+
+* Update readme for Windows users contributors
+* Add few new logos
