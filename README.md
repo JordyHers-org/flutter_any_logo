@@ -39,7 +39,7 @@ Add `flutter_any_logo` as a dependency in your `pubspec.yaml` file.
 
 ```
 dependencies:
-  flutter_any_logo: ^1.0.3
+  flutter_any_logo: ^1.0.4
 ```
 
 Then, run `flutter pub get` in your terminal to install the plugin.
@@ -56,9 +56,7 @@ You can now use the provided `AnyLogo` widget to display the logos in your app. 
 
 ```dart
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
+  const MyHomePage({super.key});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -69,7 +67,6 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(body: AnyLogo.tech.google.image()
-          // This trailing comma makes auto-formatting nicer for build methods.
           ),
     );
   }
