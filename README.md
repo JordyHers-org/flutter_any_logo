@@ -258,12 +258,38 @@ To make changes to a project, you need to follow these steps
 
 Once you have added the PNG file to your forked repository, you'll need to install the dependencies and build the project before you can see your changes.
 
-1. Open a terminal window and navigate to the project directory.
-2. Run the command `make install` to install the dependencies.
-3. this will install `gnu-sed` using brew. Make sure HomeBrew is installed
-4. if gnu-sed is already installed no need just run `make deploy`.
+### a) Open project
+ Open a terminal window and navigate to the project directory.
+
+### Install gnu on Mac
+ Run the command `make install` to install the dependencies.
+ this will install `gnu-sed` using brew. Make sure HomeBrew is installed 
+
+### Install gnu on Windows
+
+On Windows, you can use the `sed` command with the help of a tool called Cygwin,
+which provides a collection of GNU and Open Source tools that provide functionality similar to a Linux distribution on Windows. 
+Here's how you can perform the same replacement using Cygwin:
+
+1. Install Cygwin by downloading and running the installer from the official website: https://www.cygwin.com/install.html
+2. During the installation, make sure to select the packages for `sed` and `coreutils` to have access to the necessary tools.
+3. After installation, launch the "Cygwin Terminal" application.
+
+The above command is similar to the one you provided for macOS, with the difference being that we 
+don't need the empty quotes (`''`) after the `-i` option in this case.
+
+
+### b) Generate logos
+
+Run on mac: `make deploy-mac` 
+Run on windows: `make deploy-windows` 
 
 #### Step 3: 
+
+Update tests. Please go to tests and make sure you add tests. Just follow the present tests patterns 
+if you have uploaded a new category.
+
+#### Step 4: 
 
 Make sure you checkout and create a branch following this format:
 
