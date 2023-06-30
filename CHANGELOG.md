@@ -26,6 +26,11 @@
 
 ## 1.0.4
 
+* Update readme for Windows users contributors
+* Add few new logos
+
+## 1.0.5
+
 * Add crypto logos
 * Improve tests
 * add badges 
