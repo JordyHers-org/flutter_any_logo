@@ -198,8 +198,8 @@ AnyLogo.crypto.cardano
 
 /// Badges section contains badges related logos ⬇️
 AnyLogo.badges.playstoreDownload
-AnyLogo.crypto.appstoreDownload
-AnyLogo.crypto.amazonDownload
+AnyLogo.badges.appstoreDownload
+AnyLogo.badges.amazonDownload
 
 
 ```
