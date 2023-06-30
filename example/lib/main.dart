@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/flutter_logo.dart';
-import 'package:flutter_any_logo/gen/assets.gen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,9 +22,7 @@ class _MyAppState extends State<MyApp> {
           child: GridView.count(
             crossAxisCount: 5,
             children: [
-              ...AnyLogo.daily.values
-                  .map((AssetGenImage e) => e.image())
-                  .toList(),
+              ...AnyLogo.values,
             ],
           ),
         ),

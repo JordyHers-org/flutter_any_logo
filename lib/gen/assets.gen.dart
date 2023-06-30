@@ -176,6 +176,39 @@ class $AssetsAutoGen {
       ];
 }
 
+class $AssetsBadgesGen {
+  const $AssetsBadgesGen();
+
+  /// File path: packages/flutter_any_logo/assets/badges/amazonDownload.png
+  AssetGenImage get amazonDownload =>
+      const AssetGenImage('packages/flutter_any_logo/assets/badges/amazonDownload.png');
+
+  /// File path: packages/flutter_any_logo/assets/badges/appstoreDownload.png
+  AssetGenImage get appstoreDownload =>
+      const AssetGenImage('packages/flutter_any_logo/assets/badges/appstoreDownload.png');
+
+  /// File path: packages/flutter_any_logo/assets/badges/microsoftDownload.png
+  AssetGenImage get microsoftDownload =>
+      const AssetGenImage('packages/flutter_any_logo/assets/badges/microsoftDownload.png');
+
+  /// File path: packages/flutter_any_logo/assets/badges/playstoreDownload.png
+  AssetGenImage get playstoreDownload =>
+      const AssetGenImage('packages/flutter_any_logo/assets/badges/playstoreDownload.png');
+
+  /// File path: packages/flutter_any_logo/assets/badges/windowsDownload.png
+  AssetGenImage get windowsDownload =>
+      const AssetGenImage('packages/flutter_any_logo/assets/badges/windowsDownload.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+        amazonDownload,
+        appstoreDownload,
+        microsoftDownload,
+        playstoreDownload,
+        windowsDownload
+      ];
+}
+
 class $AssetsCricketGen {
   const $AssetsCricketGen();
 
@@ -244,6 +277,141 @@ class $AssetsCricketGen {
         luckNowSuperGiants,
         mumbaiIndians,
         sunrisersHyderabad
+      ];
+}
+
+class $AssetsCryptoGen {
+  const $AssetsCryptoGen();
+
+  /// File path: packages/flutter_any_logo/assets/crypto/bitbay.png
+  AssetGenImage get bitbay => const AssetGenImage('packages/flutter_any_logo/assets/crypto/bitbay.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/bitcoin.png
+  AssetGenImage get bitcoin => const AssetGenImage('packages/flutter_any_logo/assets/crypto/bitcoin.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/bitcoinIcon.png
+  AssetGenImage get bitcoinIcon =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/bitcoinIcon.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/bitmex.png
+  AssetGenImage get bitmex => const AssetGenImage('packages/flutter_any_logo/assets/crypto/bitmex.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/bitquick.png
+  AssetGenImage get bitquick =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/bitquick.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/bitstamp.png
+  AssetGenImage get bitstamp =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/bitstamp.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/bitt.png
+  AssetGenImage get bitt => const AssetGenImage('packages/flutter_any_logo/assets/crypto/bitt.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/cardano.png
+  AssetGenImage get cardano => const AssetGenImage('packages/flutter_any_logo/assets/crypto/cardano.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/coinMama.png
+  AssetGenImage get coinMama =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/coinMama.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/coinbase.png
+  AssetGenImage get coinbase =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/coinbase.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/coinspot.png
+  AssetGenImage get coinspot =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/coinspot.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/crypterium.png
+  AssetGenImage get crypterium =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/crypterium.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/cryptoStix.png
+  AssetGenImage get cryptoStix =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/cryptoStix.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/cryptosumer.png
+  AssetGenImage get cryptosumer =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/cryptosumer.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/dogecoin.png
+  AssetGenImage get dogecoin =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/dogecoin.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/ethereum.png
+  AssetGenImage get ethereum =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/ethereum.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/ethereumIcon.png
+  AssetGenImage get ethereumIcon =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/ethereumIcon.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/iota.png
+  AssetGenImage get iota => const AssetGenImage('packages/flutter_any_logo/assets/crypto/iota.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/kraken.png
+  AssetGenImage get kraken => const AssetGenImage('packages/flutter_any_logo/assets/crypto/kraken.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/litecoin.png
+  AssetGenImage get litecoin =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/litecoin.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/monero.png
+  AssetGenImage get monero => const AssetGenImage('packages/flutter_any_logo/assets/crypto/monero.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/ripple.png
+  AssetGenImage get ripple => const AssetGenImage('packages/flutter_any_logo/assets/crypto/ripple.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/rippleIcon.png
+  AssetGenImage get rippleIcon =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/rippleIcon.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/spectroCoin.png
+  AssetGenImage get spectroCoin =>
+      const AssetGenImage('packages/flutter_any_logo/assets/crypto/spectroCoin.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/steem.png
+  AssetGenImage get steem => const AssetGenImage('packages/flutter_any_logo/assets/crypto/steem.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/stellar.png
+  AssetGenImage get stellar => const AssetGenImage('packages/flutter_any_logo/assets/crypto/stellar.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/tron.png
+  AssetGenImage get tron => const AssetGenImage('packages/flutter_any_logo/assets/crypto/tron.png');
+
+  /// File path: packages/flutter_any_logo/assets/crypto/xapo.png
+  AssetGenImage get xapo => const AssetGenImage('packages/flutter_any_logo/assets/crypto/xapo.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+        bitbay,
+        bitcoin,
+        bitcoinIcon,
+        bitmex,
+        bitquick,
+        bitstamp,
+        bitt,
+        cardano,
+        coinMama,
+        coinbase,
+        coinspot,
+        crypterium,
+        cryptoStix,
+        cryptosumer,
+        dogecoin,
+        ethereum,
+        ethereumIcon,
+        iota,
+        kraken,
+        litecoin,
+        monero,
+        ripple,
+        rippleIcon,
+        spectroCoin,
+        steem,
+        stellar,
+        tron,
+        xapo
       ];
 }
 
@@ -1469,7 +1637,9 @@ class Assets {
   Assets._();
 
   static const $AssetsAutoGen auto = $AssetsAutoGen();
+  static const $AssetsBadgesGen badges = $AssetsBadgesGen();
   static const $AssetsCricketGen cricket = $AssetsCricketGen();
+  static const $AssetsCryptoGen crypto = $AssetsCryptoGen();
   static const $AssetsDailyGen daily = $AssetsDailyGen();
   static const $AssetsFashionGen fashion = $AssetsFashionGen();
   static const $AssetsFootballGen football = $AssetsFootballGen();

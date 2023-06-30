@@ -6,7 +6,7 @@ description: >-
   It covers, fashion. Sports, Entertainment, SocialMedia etc...
 
 #Version to be released
-version: 1.0.4
+version: 1.0.5
 
 #package homepage:
 homepage: https://github.com/JordyHers/flutter_any_logo
@@ -47,10 +47,12 @@ dev_dependencies:
 flutter:
   assets:
     - assets/nba/
+    - assets/badges/
     - assets/auto/
     - assets/football/
     - assets/fashion/
     - assets/cricket/
+    - assets/crypto/
     - assets/daily/
     - assets/media/
     - assets/tech/

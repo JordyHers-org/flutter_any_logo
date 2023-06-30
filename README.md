@@ -39,7 +39,7 @@ Add `flutter_any_logo` as a dependency in your `pubspec.yaml` file.
 
 ```
 dependencies:
-  flutter_any_logo: ^1.0.4
+  flutter_any_logo: ^1.0.5
 ```
 
 Then, run `flutter pub get` in your terminal to install the plugin.
@@ -190,6 +190,17 @@ AnyLogo.cricket.mumbaiIndians
 AnyLogo.auto.bugatti
 AnyLogo.auto.bmw
 AnyLogo.auto.mercedesBenz
+
+/// Crypto section contains crypto related logos 💰
+AnyLogo.crypto.bitcoin
+AnyLogo.crypto.iota
+AnyLogo.crypto.cardano
+
+/// Badges section contains badges related logos ⬇️
+AnyLogo.badges.playstoreDownload
+AnyLogo.badges.appstoreDownload
+AnyLogo.badges.amazonDownload
+
 
 ```
 

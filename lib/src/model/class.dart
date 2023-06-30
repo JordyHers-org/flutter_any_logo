@@ -101,9 +101,21 @@ class AnyLogo {
   /// AnyLogo.auto.mercedesBenz
   static const $AssetsAutoGen auto = $AssetsAutoGen();
 
+  /// Crypto section contains crypto related logos
+  /// AnyLogo.crypto.bitcoin
+  /// AnyLogo.crypto.iota
+  /// AnyLogo.crypto.cardano
+  static const $AssetsCryptoGen crypto = $AssetsCryptoGen();
+
+  /// Badges section contains badges related logos
+  /// AnyLogo.badges.playstoreDownload
+  /// AnyLogo.crypto.appstoreDownload
+  /// AnyLogo.crypto.amazonDownload
+  static const $AssetsBadgesGen badges = $AssetsBadgesGen();
+
   /// This values variable can be accessed to display all logos
   /// available in the plugin package.
-  static List<dynamic> values = <Widget>[
+  static List<Widget> values = <Widget>[
     ...AnyLogo.cricket.values.map((AssetGenImage e) => e.image()).toList(),
     ...AnyLogo.nba.values.map((AssetGenImage e) => e.image()).toList(),
     ...AnyLogo.nfl.values.map((AssetGenImage e) => e.image()).toList(),
@@ -113,5 +125,7 @@ class AnyLogo {
     ...AnyLogo.tech.values.map((AssetGenImage e) => e.image()).toList(),
     ...AnyLogo.media.values.map((AssetGenImage e) => e.image()).toList(),
     ...AnyLogo.auto.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.crypto.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.badges.values.map((AssetGenImage e) => e.image()).toList(),
   ];
 }

@@ -1,5 +1,7 @@
 class Const {
+  static const String badges = './assets/badges';
   static const String cricket = './assets/cricket';
+  static const String crypto = './assets/crypto';
   static const String nba = './assets/nba';
   static const String nfl = './assets/nfl';
   static const String football = './assets/football';

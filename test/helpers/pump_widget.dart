@@ -89,4 +89,26 @@ class PumpWidget {
           }),
     ),
   );
+
+  // Launch all logos in Crypto folder
+  static Widget crypto = MaterialApp(
+    home: Scaffold(
+      body: ListView.builder(
+          itemCount: AnyLogo.crypto.values.length,
+          itemBuilder: (BuildContext context, int index) {
+            return AnyLogo.crypto.values[index].image();
+          }),
+    ),
+  );
+
+  // Launch all logos in Crypto folder
+  static Widget badges = MaterialApp(
+    home: Scaffold(
+      body: ListView.builder(
+          itemCount: AnyLogo.badges.values.length,
+          itemBuilder: (BuildContext context, int index) {
+            return AnyLogo.badges.values[index].image();
+          }),
+    ),
+  );
 }
