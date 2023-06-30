@@ -17,7 +17,9 @@ void main() {
       AnyLogoTest.testException(tester);
     });
 
-    testWidgets('Verify the last item displayed is the same as the last in the list', (WidgetTester tester) async {
+    testWidgets(
+        'Verify the last item displayed is the same as the last in the list',
+        (WidgetTester tester) async {
       await tester.pumpWidget(PumpWidget.crypto);
       AnyLogoTest.testDisplayedLogos(tester, AnyLogo.crypto.values);
     });
