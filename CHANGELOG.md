@@ -24,3 +24,11 @@
 * Add more daily logos
 * Add more Tech logos
 
+## 1.0.4
+
+* Add crypto logos
+* Improve tests
+* add badges 
+* Fix minor bug and enhancements
+
+

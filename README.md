@@ -194,6 +194,17 @@ AnyLogo.auto.bugatti
 AnyLogo.auto.bmw
 AnyLogo.auto.mercedesBenz
 
+/// Crypto section contains crypto related logos 💰
+AnyLogo.crypto.bitcoin
+AnyLogo.crypto.iota
+AnyLogo.crypto.cardano
+
+/// Badges section contains badges related logos ⬇️
+AnyLogo.badges.playstoreDownload
+AnyLogo.crypto.appstoreDownload
+AnyLogo.crypto.amazonDownload
+
+
 ```
 
 ### Warning ⚠️
