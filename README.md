@@ -39,7 +39,7 @@ Add `flutter_any_logo` as a dependency in your `pubspec.yaml` file.
 
 ```
 dependencies:
-  flutter_any_logo: ^1.0.5
+  flutter_any_logo: ^1.0.6
 ```
 
 Then, run `flutter pub get` in your terminal to install the plugin.
