@@ -1,20 +1,21 @@
-## 1.0.0
+## 1.0.6
 
-* Initial release of the project
-* Added basic project structure and files
-* Implemented core functionality of the application
-* Created user interface for the application
+* Add twitterX, nasa, speceX, theVerge, vodafone
+* Add angelList, indeed, medium
+* fix package point 130/140 
+* Fix minor bug and enhancements
 
-## 1.0.1
+## 1.0.5
 
-* Ios crash bug 
+* Add crypto logos
+* Improve tests
+* add badges
+* Fix minor bug and enhancements
 
-## 1.0.2
+## 1.0.4
 
-* Updated Readme file
-* Minor bug fixes
-* Address issue with Android Gradle Versions
-
+* Update readme for Windows users contributors
+* Add few new logos
 
 ## 1.0.3
 
@@ -24,16 +25,19 @@
 * Add more daily logos
 * Add more Tech logos
 
-## 1.0.4
+## 1.0.2
 
-* Update readme for Windows users contributors
-* Add few new logos
+* Updated Readme file
+* Minor bug fixes
+* Address issue with Android Gradle Versions
 
-## 1.0.5
+## 1.0.1
 
-* Add crypto logos
-* Improve tests
-* add badges 
-* Fix minor bug and enhancements
+* Ios crash bug
 
+## 1.0.0
 
+* Initial release of the project
+* Added basic project structure and files
+* Implemented core functionality of the application
+* Created user interface for the application

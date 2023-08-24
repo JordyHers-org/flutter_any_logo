@@ -1014,6 +1014,10 @@ class $AssetsFootballGen {
 class $AssetsMediaGen {
   const $AssetsMediaGen();
 
+  /// File path: packages/flutter_any_logo/assets/media/angelList.png
+  AssetGenImage get angelList =>
+      const AssetGenImage('packages/flutter_any_logo/assets/media/angelList.png');
+
   /// File path: packages/flutter_any_logo/assets/media/discord.png
   AssetGenImage get discord => const AssetGenImage('packages/flutter_any_logo/assets/media/discord.png');
 
@@ -1039,6 +1043,9 @@ class $AssetsMediaGen {
   AssetGenImage get googleMeet =>
       const AssetGenImage('packages/flutter_any_logo/assets/media/googleMeet.png');
 
+  /// File path: packages/flutter_any_logo/assets/media/indeed.png
+  AssetGenImage get indeed => const AssetGenImage('packages/flutter_any_logo/assets/media/indeed.png');
+
   /// File path: packages/flutter_any_logo/assets/media/instagram.png
   AssetGenImage get instagram =>
       const AssetGenImage('packages/flutter_any_logo/assets/media/instagram.png');
@@ -1046,6 +1053,9 @@ class $AssetsMediaGen {
   /// File path: packages/flutter_any_logo/assets/media/linkedin.png
   AssetGenImage get linkedin =>
       const AssetGenImage('packages/flutter_any_logo/assets/media/linkedin.png');
+
+  /// File path: packages/flutter_any_logo/assets/media/medium.png
+  AssetGenImage get medium => const AssetGenImage('packages/flutter_any_logo/assets/media/medium.png');
 
   /// File path: packages/flutter_any_logo/assets/media/meetup.png
   AssetGenImage get meetup => const AssetGenImage('packages/flutter_any_logo/assets/media/meetup.png');
@@ -1112,6 +1122,13 @@ class $AssetsMediaGen {
   /// File path: packages/flutter_any_logo/assets/media/twitch.png
   AssetGenImage get twitch => const AssetGenImage('packages/flutter_any_logo/assets/media/twitch.png');
 
+  /// File path: packages/flutter_any_logo/assets/media/twitter.png
+  AssetGenImage get twitter => const AssetGenImage('packages/flutter_any_logo/assets/media/twitter.png');
+
+  /// File path: packages/flutter_any_logo/assets/media/twitterX.png
+  AssetGenImage get twitterX =>
+      const AssetGenImage('packages/flutter_any_logo/assets/media/twitterX.png');
+
   /// File path: packages/flutter_any_logo/assets/media/viber.png
   AssetGenImage get viber => const AssetGenImage('packages/flutter_any_logo/assets/media/viber.png');
 
@@ -1136,6 +1153,7 @@ class $AssetsMediaGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [
+        angelList,
         discord,
         dropbox,
         facebook,
@@ -1143,8 +1161,10 @@ class $AssetsMediaGen {
         gmail,
         googleDuo,
         googleMeet,
+        indeed,
         instagram,
         linkedin,
+        medium,
         meetup,
         meta,
         microsoftTeams,
@@ -1165,6 +1185,8 @@ class $AssetsMediaGen {
         tinder,
         tumblr,
         twitch,
+        twitter,
+        twitterX,
         viber,
         wechat,
         weibo,
@@ -1556,6 +1578,9 @@ class $AssetsTechGen {
   AssetGenImage get microsoft =>
       const AssetGenImage('packages/flutter_any_logo/assets/tech/microsoft.png');
 
+  /// File path: packages/flutter_any_logo/assets/tech/nasa.png
+  AssetGenImage get nasa => const AssetGenImage('packages/flutter_any_logo/assets/tech/nasa.png');
+
   /// File path: packages/flutter_any_logo/assets/tech/panasonic.png
   AssetGenImage get panasonic =>
       const AssetGenImage('packages/flutter_any_logo/assets/tech/panasonic.png');
@@ -1583,14 +1608,23 @@ class $AssetsTechGen {
   /// File path: packages/flutter_any_logo/assets/tech/sony.png
   AssetGenImage get sony => const AssetGenImage('packages/flutter_any_logo/assets/tech/sony.png');
 
+  /// File path: packages/flutter_any_logo/assets/tech/spaceX.png
+  AssetGenImage get spaceX => const AssetGenImage('packages/flutter_any_logo/assets/tech/spaceX.png');
+
   /// File path: packages/flutter_any_logo/assets/tech/stripe.png
   AssetGenImage get stripe => const AssetGenImage('packages/flutter_any_logo/assets/tech/stripe.png');
+
+  /// File path: packages/flutter_any_logo/assets/tech/theVerge.png
+  AssetGenImage get theVerge => const AssetGenImage('packages/flutter_any_logo/assets/tech/theVerge.png');
 
   /// File path: packages/flutter_any_logo/assets/tech/uber.png
   AssetGenImage get uber => const AssetGenImage('packages/flutter_any_logo/assets/tech/uber.png');
 
   /// File path: packages/flutter_any_logo/assets/tech/visa.png
   AssetGenImage get visa => const AssetGenImage('packages/flutter_any_logo/assets/tech/visa.png');
+
+  /// File path: packages/flutter_any_logo/assets/tech/vodafone.png
+  AssetGenImage get vodafone => const AssetGenImage('packages/flutter_any_logo/assets/tech/vodafone.png');
 
   /// File path: packages/flutter_any_logo/assets/tech/xbox.png
   AssetGenImage get xbox => const AssetGenImage('packages/flutter_any_logo/assets/tech/xbox.png');
@@ -1617,6 +1651,7 @@ class $AssetsTechGen {
         masterCard,
         meta,
         microsoft,
+        nasa,
         panasonic,
         paypal,
         playstation,
@@ -1625,9 +1660,12 @@ class $AssetsTechGen {
         shopify,
         siemens,
         sony,
+        spaceX,
         stripe,
+        theVerge,
         uber,
         visa,
+        vodafone,
         xbox,
         xiaomi
       ];
