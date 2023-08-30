@@ -216,7 +216,7 @@ logo you think should be part of the library. Feel free to open an Pull request 
 PNG File Upload Validation
 
 #### Objective:
-To ensure that only PNG files with a size of 400kb or less are uploaded to the application.
+To ensure that only PNG files with a size of `100kb` or less are uploaded to the application.
 
 #### Scope:
 This test strategy covers the validation of PNG file uploads in the application. Specifically, it covers the validation of PNG file types and size limits.
