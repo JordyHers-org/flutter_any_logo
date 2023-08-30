@@ -59,5 +59,15 @@ void main() {
       const String directoryPath = Const.auto;
       AnyLogoTest.testSize(directoryPath);
     });
+
+    test(' Crypto ', () {
+      const String directoryPath = Const.crypto;
+      AnyLogoTest.testSize(directoryPath);
+    });
+
+    test(' Badges ', () {
+      const String directoryPath = Const.badges;
+      AnyLogoTest.testSize(directoryPath);
+    });
   });
 }

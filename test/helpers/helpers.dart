@@ -31,9 +31,9 @@ class AnyLogoTest {
 
         final double imageSizeInKB = imageData.lengthInBytes / 1024;
 
-        expect(imageSizeInKB, lessThan(400),
+        expect(imageSizeInKB, lessThan(100),
             reason: 'The image ${file.absolute} size of ${file.path} should be'
-                ' less than 400KB');
+                ' less than 100KB');
       }
     }
   }
