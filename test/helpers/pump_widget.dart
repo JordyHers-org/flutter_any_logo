@@ -101,7 +101,7 @@ class PumpWidget {
     ),
   );
 
-  // Launch all logos in Crypto folder
+  // Launch all logos in Badges folder
   static Widget badges = MaterialApp(
     home: Scaffold(
       body: ListView.builder(
