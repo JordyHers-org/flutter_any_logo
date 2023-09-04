@@ -1,6 +1,7 @@
 ## 1.1.0
 
 * Reduce minimum size to `100kb`
+* Fix typo and improve documentation
 
 
 ## 1.0.6
