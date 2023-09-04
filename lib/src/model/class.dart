@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/gen/assets.gen.dart';
 
-/// [AnyLogo] class will help ypu access any logo
+/// [AnyLogo] class will help you access any logo
 /// you would like to display in your app; listed
-/// in the corresponding category
+/// in the corresponding category. This class can be
+/// instantiated.
 class AnyLogo {
   /// You can still pass just the asset image without calling [.image()]
   /// Image(image: AssetImage(AnyLogo.nba.atlanta.path)),
