@@ -14,10 +14,18 @@ class AnyLogoTest {
     final Directory myDirectory = Directory(path);
     final List<FileSystemEntity> myFiles = myDirectory.listSync();
 
-    final int fileCount = myFiles.whereType<File>().length;
-    if (kDebugMode) {
-      print('Number of files: $fileCount');
+    int fileCount = myFiles.whereType<File>().length;
+
+    for (final FileSystemEntity file in myFiles) {
+      if (file.path.endsWith('.DS_Store')) {
+        fileCount = fileCount - 1;
+      }
     }
+
+    if (kDebugMode) {
+      debugPrint('Number of files: $fileCount');
+    }
+
     expect(find.byType(Image, skipOffstage: false), findsNWidgets(fileCount));
   }
 
@@ -31,9 +39,9 @@ class AnyLogoTest {
 
         final double imageSizeInKB = imageData.lengthInBytes / 1024;
 
-        expect(imageSizeInKB, lessThan(400),
+        expect(imageSizeInKB, lessThan(100),
             reason: 'The image ${file.absolute} size of ${file.path} should be'
-                ' less than 400KB');
+                ' less than 100KB');
       }
     }
   }
@@ -44,8 +52,12 @@ class AnyLogoTest {
 
     for (final FileSystemEntity file in files) {
       if (file is File) {
+        if (file.path.endsWith('.DS_Store')) {
+          continue;
+        }
         expect(file.path.endsWith('.png'), isTrue,
-            reason: 'All images should have the extension .png');
+            reason:
+                'The image ${file.absolute} should have the extension .png');
       }
     }
   }

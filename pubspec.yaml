@@ -6,7 +6,7 @@ description: >-
   It covers, fashion. Sports, Entertainment, SocialMedia etc...
 
 #Version to be released
-version: 1.0.6
+version: 1.1.0
 
 #package homepage:
 homepage: https://github.com/JordyHers/flutter_any_logo
@@ -21,12 +21,6 @@ repository: https://github.com/JordyHers/flutter_any_logo
 environment:
   sdk: '>=2.19.2 <3.0.0'
   flutter: ">=2.5.0"
-
-#screenshots
-#screenshots:
-#  - description: 'AnyLogo template'
-#    path: images/anyLogo.png
-
 
 
 # dependencies

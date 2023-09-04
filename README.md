@@ -18,8 +18,7 @@
 A Flutter plugin that provides asset images for popular industry categories.
 It includes 5 main classes, Sports, Fashion, Tech, Daily, and Media, each extending their respective interface.
 This plugin can be useful for projects that require industry-related images. This plugin can be useful for various
-projects, such as Quiz app, Catalogs, eCommerce App, Templates, Websites, and more. It can be especially usefu
-l for projects that require industry-related images.
+projects, such as Quiz app, Catalogs, eCommerce App, Templates, Websites, and more. 
 
 
 
@@ -39,7 +38,7 @@ Add `flutter_any_logo` as a dependency in your `pubspec.yaml` file.
 
 ```
 dependencies:
-  flutter_any_logo: ^1.0.6
+  flutter_any_logo: <latest vesion>
 ```
 
 Then, run `flutter pub get` in your terminal to install the plugin.
@@ -217,7 +216,7 @@ logo you think should be part of the library. Feel free to open an Pull request 
 PNG File Upload Validation
 
 #### Objective:
-To ensure that only PNG files with a size of 400kb or less are uploaded to the application.
+To ensure that only PNG files with a size of `100kb` or less are uploaded to the application.
 
 #### Scope:
 This test strategy covers the validation of PNG file uploads in the application. Specifically, it covers the validation of PNG file types and size limits.

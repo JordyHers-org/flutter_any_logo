@@ -63,4 +63,16 @@ void main() {
     const String directoryPath = Const.cricket;
     AnyLogoTest.testType(directoryPath);
   });
+
+  test(' Badges : Verify that all logos are PNG files', () {
+    // Define the path to the local directory folder containing images
+    const String directoryPath = Const.badges;
+    AnyLogoTest.testType(directoryPath);
+  });
+
+  test(' Crypto : Verify that all logos are PNG files', () {
+    // Define the path to the local directory folder containing images
+    const String directoryPath = Const.badges;
+    AnyLogoTest.testType(directoryPath);
+  });
 }
