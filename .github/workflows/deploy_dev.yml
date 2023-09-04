@@ -20,9 +20,9 @@ jobs:
           echo "ERROR: File '$file' is not a PNG file"
         done
     - name: Setup Flutter
-      uses: subosito/flutter-action@v1
+      uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.7.5'
+        flutter-version: '3.13.1'
 
     - name: Install dependencies
       run: flutter pub get
