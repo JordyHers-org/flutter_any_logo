@@ -224,6 +224,9 @@ class $AssetsCodingGen {
   AssetGenImage get codeIgniter =>
       const AssetGenImage('packages/flutter_any_logo/assets/coding/codeIgniter.png');
 
+  /// File path: packages/flutter_any_logo/assets/coding/dart.png
+  AssetGenImage get dart => const AssetGenImage('packages/flutter_any_logo/assets/coding/dart.png');
+
   /// File path: packages/flutter_any_logo/assets/coding/docker.png
   AssetGenImage get docker => const AssetGenImage('packages/flutter_any_logo/assets/coding/docker.png');
 
@@ -324,6 +327,7 @@ class $AssetsCodingGen {
         reactNative,
         angularJs,
         codeIgniter,
+        dart,
         docker,
         firebase,
         github,
