@@ -114,6 +114,12 @@ class AnyLogo {
   /// AnyLogo.crypto.amazonDownload
   static const $AssetsBadgesGen badges = $AssetsBadgesGen();
 
+  /// Coding section contains programming languages related logos
+  /// AnyLogo.badges.playstoreDownload
+  /// AnyLogo.crypto.appstoreDownload
+  /// AnyLogo.crypto.amazonDownload
+  static const $AssetsCodingGen coding = $AssetsCodingGen();
+
   /// This values variable can be accessed to display all logos
   /// available in the plugin package.
   static List<Widget> values = <Widget>[
@@ -128,5 +134,6 @@ class AnyLogo {
     ...AnyLogo.auto.values.map((AssetGenImage e) => e.image()).toList(),
     ...AnyLogo.crypto.values.map((AssetGenImage e) => e.image()).toList(),
     ...AnyLogo.badges.values.map((AssetGenImage e) => e.image()).toList(),
+    ...AnyLogo.coding.values.map((AssetGenImage e) => e.image()).toList(),
   ];
 }
