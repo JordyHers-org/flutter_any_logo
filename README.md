@@ -38,7 +38,7 @@ Add `flutter_any_logo` as a dependency in your `pubspec.yaml` file.
 
 ```
 dependencies:
-  flutter_any_logo: <latest vesion>
+  flutter_any_logo: <latest version>
 ```
 
 Then, run `flutter pub get` in your terminal to install the plugin.
@@ -93,6 +93,7 @@ class MyApp extends StatelessWidget {
           ...AnyLogo.nfl.values.map((e) => e.image()).toList(), 
           ...AnyLogo.media.values.map((e) => e.image()).toList(),
           ...AnyLogo.auto.values.map((e) => e.image()).toList(),
+          ...AnyLogo.coding.values.map((e) => e.image()).toList(),
         ],
       ),
     );
@@ -199,6 +200,11 @@ AnyLogo.crypto.cardano
 AnyLogo.badges.playstoreDownload
 AnyLogo.badges.appstoreDownload
 AnyLogo.badges.amazonDownload
+
+/// Badges section contains programming and IDE related logos 👨🏾‍💻
+AnyLogo.coding.vsCode
+AnyLogo.badges.intellij
+AnyLogo.badges.vim
 
 
 ```

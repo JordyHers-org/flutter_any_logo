@@ -6,22 +6,22 @@ import '../helpers/helpers.dart';
 import '../helpers/pump_widget.dart';
 
 void main() {
-  group('Football List Tests', () {
+  group('Coding List Tests', () {
     testWidgets('Verify All Logos Should load', (WidgetTester tester) async {
-      await tester.pumpWidget(PumpWidget.football);
-      AnyLogoTest.testLogosRendered(Const.uefa);
+      await tester.pumpWidget(PumpWidget.coding);
+      AnyLogoTest.testLogosRendered(Const.coding);
     });
 
     testWidgets('Verify no exception is thrown', (WidgetTester tester) async {
-      await tester.pumpWidget(PumpWidget.football);
+      await tester.pumpWidget(PumpWidget.coding);
       AnyLogoTest.testException(tester);
     });
 
     testWidgets(
         'Verify the last item displayed is the same as the last in the list',
         (WidgetTester tester) async {
-      await tester.pumpWidget(PumpWidget.football);
-      AnyLogoTest.testDisplayedLogos(tester, AnyLogo.uefa.values);
+      await tester.pumpWidget(PumpWidget.coding);
+      AnyLogoTest.testDisplayedLogos(tester, AnyLogo.coding.values);
     });
   });
 }

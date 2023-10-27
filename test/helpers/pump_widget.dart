@@ -110,5 +110,15 @@ class PumpWidget {
             return AnyLogo.badges.values[index].image();
           }),
     ),
+  ); // Launch all logos in Badges folder
+
+  static Widget coding = MaterialApp(
+    home: Scaffold(
+      body: ListView.builder(
+          itemCount: AnyLogo.coding.values.length,
+          itemBuilder: (BuildContext context, int index) {
+            return AnyLogo.coding.values[index].image();
+          }),
+    ),
   );
 }

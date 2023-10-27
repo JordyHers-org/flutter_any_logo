@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'helpers/constants.dart';
 import 'helpers/helpers.dart';
 
-/// By convention all png files should not exceed 400 kb, This
+/// By convention all png files should not exceed 100 kb, This
 /// will allow us to keep the package light enough to be easily
 /// implemented in any project.
 
@@ -14,7 +14,7 @@ import 'helpers/helpers.dart';
 /// All File uploaded should have the extension [.png] if not error should be
 /// thrown.
 void main() {
-  group('ALL Loaded image sizes should be less than 400KB', () {
+  group('ALL Loaded image sizes should be less than 100KB', () {
     test(' NBA ', () {
       const String directoryPath = Const.nba;
       AnyLogoTest.testSize(directoryPath);
@@ -36,7 +36,7 @@ void main() {
     });
 
     test(' UEFA ', () {
-      const String directoryPath = Const.football;
+      const String directoryPath = Const.uefa;
       AnyLogoTest.testSize(directoryPath);
     });
 
@@ -67,6 +67,11 @@ void main() {
 
     test(' Badges ', () {
       const String directoryPath = Const.badges;
+      AnyLogoTest.testSize(directoryPath);
+    });
+
+    test(' Coding ', () {
+      const String directoryPath = Const.coding;
       AnyLogoTest.testSize(directoryPath);
     });
   });

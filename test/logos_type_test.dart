@@ -11,68 +11,50 @@ import 'helpers/helpers.dart';
 /// thrown.
 void main() {
   test(' Basketball : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.nba;
-    AnyLogoTest.testType(directoryPath);
+    AnyLogoTest.testType(Const.nba);
   });
 
   test(' Media : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.media;
-    AnyLogoTest.testType(directoryPath);
+    AnyLogoTest.testType(Const.media);
   });
 
   test(' Tech : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.tech;
-    AnyLogoTest.testType(directoryPath);
+    AnyLogoTest.testType(Const.tech);
   });
 
   test(' Daily : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.daily;
-    AnyLogoTest.testType(directoryPath);
+    AnyLogoTest.testType(Const.daily);
   });
 
-  test(' Football : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.football;
-    AnyLogoTest.testType(directoryPath);
+  test(' Uefa : Verify that all logos are PNG files', () {
+    AnyLogoTest.testType(Const.uefa);
   });
 
   test(' Fashion : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.fashion;
-    AnyLogoTest.testType(directoryPath);
+    AnyLogoTest.testType(Const.fashion);
   });
 
-  test(' NFL : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.nfl;
-    AnyLogoTest.testType(directoryPath);
+  test(' Nfl : Verify that all logos are PNG files', () {
+    AnyLogoTest.testType(Const.nfl);
   });
 
   test(' Automobile : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.auto;
-    AnyLogoTest.testType(directoryPath);
+    AnyLogoTest.testType(Const.auto);
   });
 
   test(' Cricket : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.cricket;
-    AnyLogoTest.testType(directoryPath);
+    AnyLogoTest.testType(Const.cricket);
   });
 
   test(' Badges : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.badges;
-    AnyLogoTest.testType(directoryPath);
+    AnyLogoTest.testType(Const.badges);
   });
 
   test(' Crypto : Verify that all logos are PNG files', () {
-    // Define the path to the local directory folder containing images
-    const String directoryPath = Const.badges;
-    AnyLogoTest.testType(directoryPath);
+    AnyLogoTest.testType(Const.crypto);
+  });
+
+  test(' Coding : Verify that all logos are PNG files', () {
+    AnyLogoTest.testType(Const.coding);
   });
 }
