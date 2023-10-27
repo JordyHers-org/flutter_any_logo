@@ -145,9 +145,17 @@ AnyLogo.nba.atlantaHawks.image(height: 30, width: 25, fit: BoxFit.contain);
 //You can still pass just the asset image without calling [.image()]
 Image(image: AssetImage(AnyLogo.nba.atlanta.path)),
 
+```
+
+
+### Categories
+These are the possible categories
+
+```dart
 // UEFA section contains football teams ⚽️
 AnyLogo.uefa.acMilan
 AnyLogo.uefa.barcelona
+AnyLogo.uefa.realMadrid
 
 // Daily section contains everyday brands food / travel / plane / agencies related etc.. 🍟
 // Basically if you don't find a brand it could be in daily.
@@ -201,10 +209,10 @@ AnyLogo.badges.playstoreDownload
 AnyLogo.badges.appstoreDownload
 AnyLogo.badges.amazonDownload
 
-/// Badges section contains programming and IDE related logos 👨🏾‍💻
+/// Coding section contains programming and IDE related logos 👨🏾‍💻
 AnyLogo.coding.vsCode
-AnyLogo.badges.intellij
-AnyLogo.badges.vim
+AnyLogo.coding.intellij
+AnyLogo.coding.vim
 
 
 ```
