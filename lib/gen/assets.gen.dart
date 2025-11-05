@@ -1,3 +1,5 @@
+// dart format width=80
+
 /// GENERATED CODE - DO NOT MODIFY BY HAND
 /// *****************************************************
 ///  FlutterGen
@@ -5,7 +7,7 @@
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
-// ignore_for_file: directives_ordering,unnecessary_import,implicit_dynamic_list_literal,deprecated_member_use
+// ignore_for_file: deprecated_member_use,directives_ordering,implicit_dynamic_list_literal,unnecessary_import
 
 import 'package:flutter/widgets.dart';
 
@@ -213,16 +215,23 @@ class $AssetsCodingGen {
   const $AssetsCodingGen();
 
   /// File path: packages/flutter_any_logo/assets/coding/ reactNative.png
-  AssetGenImage get reactNative =>
+  AssetGenImage get aReactNative =>
       const AssetGenImage('packages/flutter_any_logo/assets/coding/ reactNative.png');
 
   /// File path: packages/flutter_any_logo/assets/coding/angularJs.png
   AssetGenImage get angularJs =>
       const AssetGenImage('packages/flutter_any_logo/assets/coding/angularJs.png');
 
+  /// File path: packages/flutter_any_logo/assets/coding/appwrite.png
+  AssetGenImage get appwrite =>
+      const AssetGenImage('packages/flutter_any_logo/assets/coding/appwrite.png');
+
   /// File path: packages/flutter_any_logo/assets/coding/codeIgniter.png
   AssetGenImage get codeIgniter =>
       const AssetGenImage('packages/flutter_any_logo/assets/coding/codeIgniter.png');
+
+  /// File path: packages/flutter_any_logo/assets/coding/css3.png
+  AssetGenImage get css3 => const AssetGenImage('packages/flutter_any_logo/assets/coding/css3.png');
 
   /// File path: packages/flutter_any_logo/assets/coding/dart.png
   AssetGenImage get dart => const AssetGenImage('packages/flutter_any_logo/assets/coding/dart.png');
@@ -230,15 +239,25 @@ class $AssetsCodingGen {
   /// File path: packages/flutter_any_logo/assets/coding/docker.png
   AssetGenImage get docker => const AssetGenImage('packages/flutter_any_logo/assets/coding/docker.png');
 
+  /// File path: packages/flutter_any_logo/assets/coding/figma.png
+  AssetGenImage get figma => const AssetGenImage('packages/flutter_any_logo/assets/coding/figma.png');
+
   /// File path: packages/flutter_any_logo/assets/coding/firebase.png
   AssetGenImage get firebase =>
       const AssetGenImage('packages/flutter_any_logo/assets/coding/firebase.png');
+
+  /// File path: packages/flutter_any_logo/assets/coding/flutter.png
+  AssetGenImage get flutter => const AssetGenImage('packages/flutter_any_logo/assets/coding/flutter.png');
 
   /// File path: packages/flutter_any_logo/assets/coding/github.png
   AssetGenImage get github => const AssetGenImage('packages/flutter_any_logo/assets/coding/github.png');
 
   /// File path: packages/flutter_any_logo/assets/coding/gitlab.png
   AssetGenImage get gitlab => const AssetGenImage('packages/flutter_any_logo/assets/coding/gitlab.png');
+
+  /// File path: packages/flutter_any_logo/assets/coding/googlecloud.png
+  AssetGenImage get googlecloud =>
+      const AssetGenImage('packages/flutter_any_logo/assets/coding/googlecloud.png');
 
   /// File path: packages/flutter_any_logo/assets/coding/graphQl.png
   AssetGenImage get graphQl => const AssetGenImage('packages/flutter_any_logo/assets/coding/graphQl.png');
@@ -274,12 +293,21 @@ class $AssetsCodingGen {
   /// File path: packages/flutter_any_logo/assets/coding/jenkins.png
   AssetGenImage get jenkins => const AssetGenImage('packages/flutter_any_logo/assets/coding/jenkins.png');
 
+  /// File path: packages/flutter_any_logo/assets/coding/json.png
+  AssetGenImage get json => const AssetGenImage('packages/flutter_any_logo/assets/coding/json.png');
+
   /// File path: packages/flutter_any_logo/assets/coding/kubernetes.png
   AssetGenImage get kubernetes =>
       const AssetGenImage('packages/flutter_any_logo/assets/coding/kubernetes.png');
 
   /// File path: packages/flutter_any_logo/assets/coding/matLab.png
   AssetGenImage get matLab => const AssetGenImage('packages/flutter_any_logo/assets/coding/matLab.png');
+
+  /// File path: packages/flutter_any_logo/assets/coding/mysql.png
+  AssetGenImage get mysql => const AssetGenImage('packages/flutter_any_logo/assets/coding/mysql.png');
+
+  /// File path: packages/flutter_any_logo/assets/coding/next.js.png
+  AssetGenImage get nextJs => const AssetGenImage('packages/flutter_any_logo/assets/coding/next.js.png');
 
   /// File path: packages/flutter_any_logo/assets/coding/nodeJs.png
   AssetGenImage get nodeJs => const AssetGenImage('packages/flutter_any_logo/assets/coding/nodeJs.png');
@@ -305,6 +333,10 @@ class $AssetsCodingGen {
   /// File path: packages/flutter_any_logo/assets/coding/swiftUI.png
   AssetGenImage get swiftUI => const AssetGenImage('packages/flutter_any_logo/assets/coding/swiftUI.png');
 
+  /// File path: packages/flutter_any_logo/assets/coding/typescript.png
+  AssetGenImage get typescript =>
+      const AssetGenImage('packages/flutter_any_logo/assets/coding/typescript.png');
+
   /// File path: packages/flutter_any_logo/assets/coding/vsCode.png
   AssetGenImage get vsCode => const AssetGenImage('packages/flutter_any_logo/assets/coding/vsCode.png');
 
@@ -324,14 +356,19 @@ class $AssetsCodingGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [
-        reactNative,
+        aReactNative,
         angularJs,
+        appwrite,
         codeIgniter,
+        css3,
         dart,
         docker,
+        figma,
         firebase,
+        flutter,
         github,
         gitlab,
+        googlecloud,
         graphQl,
         html,
         intellij,
@@ -342,8 +379,11 @@ class $AssetsCodingGen {
         java,
         javascript,
         jenkins,
+        json,
         kubernetes,
         matLab,
+        mysql,
+        nextJs,
         nodeJs,
         npm,
         postman,
@@ -352,6 +392,7 @@ class $AssetsCodingGen {
         react,
         redis,
         swiftUI,
+        typescript,
         vsCode,
         vsCodeThumbnail,
         vueJs,
@@ -1823,7 +1864,7 @@ class $AssetsTechGen {
 }
 
 class Assets {
-  Assets._();
+  const Assets._();
 
   static const $AssetsAutoGen auto = $AssetsAutoGen();
   static const $AssetsBadgesGen badges = $AssetsBadgesGen();
@@ -1840,9 +1881,18 @@ class Assets {
 }
 
 class AssetGenImage {
-  const AssetGenImage(this._assetName);
+  const AssetGenImage(
+    this._assetName, {
+    this.size,
+    this.flavors = const {},
+    this.animation,
+  });
 
   final String _assetName;
+
+  final Size? size;
+  final Set<String> flavors;
+  final AssetGenImageAnimation? animation;
 
   Image image({
     Key? key,
@@ -1862,10 +1912,10 @@ class AssetGenImage {
     ImageRepeat repeat = ImageRepeat.noRepeat,
     Rect? centerSlice,
     bool matchTextDirection = false,
-    bool gaplessPlayback = false,
+    bool gaplessPlayback = true,
     bool isAntiAlias = false,
     String? package,
-    FilterQuality filterQuality = FilterQuality.low,
+    FilterQuality filterQuality = FilterQuality.medium,
     int? cacheWidth,
     int? cacheHeight,
   }) {
@@ -1911,4 +1961,16 @@ class AssetGenImage {
   String get path => _assetName;
 
   String get keyName => _assetName;
+}
+
+class AssetGenImageAnimation {
+  const AssetGenImageAnimation({
+    required this.isAnimation,
+    required this.duration,
+    required this.frames,
+  });
+
+  final bool isAnimation;
+  final Duration duration;
+  final int frames;
 }
