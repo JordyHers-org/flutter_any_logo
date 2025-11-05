@@ -1,3 +1,7 @@
+## 1.1.2
+
+* Maintenance release to align with updated Flutter tooling
+
 ## 1.1.1
 
 * Implement `coding` logos
